@@ -1,0 +1,128 @@
+cliff top corner (grass/grass)
+cliff top corner (grass/grass)
+cliff top corner (dirt/dirt)
+cliff top corner (dirt/dirt)
+cliff wall corner (dirt)
+cliff wall corner (dirt)
+dirt hole
+dirt hole
+cliff top corner (grass)
+cliff top corner (grass)
+cliff top corner (dirt)
+cliff top corner (dirt)
+cliff wall corner (grass)
+cliff wall corner (grass)
+dirt hole
+dirt hole
+cliff corner (middle)
+cliff corner (middle)
+cliff bottom corner (dirt)
+cliff bottom corner (dirt)
+?????
+?????
+?????
+?????
+cliff bottom corner (grass)
+cliff bottom corner (grass)
+?????
+?????
+?????
+?????
+?????
+?????
+cliff top corner (dirt/grass)
+cliff top corner (dirt/grass)
+cliff top corner (grass/dirt)
+cliff top corner (grass/dirt)
+?????
+?????
+?????
+?????
+cliff bottom edge (dirt)
+cliff bottom edge (dirt)
+cliff bottom edge (grass)
+cliff bottom edge (grass)
+?????
+?????
+?????
+?????
+(dirt) grass corner
+(dirt) grass corner
+(grass) dirt corner
+(grass) dirt corner
+(gravel) grass corner
+(gravel) grass corner
+(grass) gravel corner
+(grass) gravel corner
+(dirt) grass corner
+(dirt) grass corner
+(grass) dirt corner
+(grass) dirt corner
+(gravel) grass corner
+(gravel) grass corner
+(grass) gravel corner
+(grass) gravel corner
+light canopy top corner
+light canopy top corner (inner corner)
+light canopy top corner (inner corner)
+light canopy top corner
+dark canopy top corner
+dark canopy top corner (inner corner)
+dark canopy top corner (inner corner)
+dark canopy top corner
+light canopy bottom corner
+light canopy bottom corner (inner corner)
+light canopy bottom corner (inner corner)
+light canopy bottom corner
+dark canopy bottom corner
+dark canopy bottom corner (inner corner)
+dark canopy bottom corner (inner corner)
+dark canopy bottom corner
+branchy trees corner
+branchy trees corner (inner corner)
+branchy trees corner (inner corner)
+branchy trees corner
+dense trees corner
+dense trees corner (inner corner)
+dense trees corner (inner corner)
+dense trees corner
+branchy trees bottom corner
+branchy trees bottom corner (inner corner)
+branchy trees bottom corner (inner corner)
+branchy trees bottom corner
+dense trees bottom corner
+dense trees bottom corner (inner corner)
+dense trees bottom corner (inner corner)
+dense trees bottom corner
+wall fade top left
+wall fade top middle
+wall fade top right
+wall fade top single
+dirt steps left
+dirt steps middle
+dirt steps right
+dirt steps single
+wall fade left
+wall fade middle
+wall fade right
+wall fade single
+?????
+?????
+?????
+?????
+?????
+?????
+?????
+?????
+?????
+?????
+?????
+?????
+?????
+?????
+?????
+?????
+?????
+?????
+?????
+blackness

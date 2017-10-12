@@ -1,0 +1,48 @@
+Grass Clifftop
+Sand Clifftop
+Snow Clifftop
+NONE
+NONE
+NONE
+NONE
+NONE
+Cliff Face (Grass)
+Cliff Face (Sand)
+Cliff Face (Snow)
+NONE
+NONE
+NONE
+NONE
+NONE
+NONE
+NONE
+NONE
+NONE
+NONE
+NONE
+NONE
+NONE
+Wallpaper
+Wallpaper
+Plain Wall
+Wooden Wall
+NONE
+NONE
+NONE
+NONE
+Wooden Interior Edge
+Dark Wooden Interior Edge
+NONE
+NONE
+NONE
+NONE
+NONE
+NONE
+Wooden Wall
+Plain Wall
+Plain Wall
+Plain Wall
+Plain Wall with Wooden Borders
+Plain Wall with Stone Borders
+Gold Wall
+NONE

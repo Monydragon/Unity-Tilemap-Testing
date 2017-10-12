@@ -1,0 +1,32 @@
+wood beams
+wood cross beams
+brick (tan)
+brick (red)
+stone
+wood planks
+bookcase top
+bookcase top (dark)
+half timber
+wallpaper
+brick (tan)
+brick (red)
+stone wall
+wood planks
+bookcase fancy
+bookcase plain
+wood beams ceiling
+wood cross beams ceiling
+dentil moulding
+dentil moulding ceiling
+rough wood beams
+rough wood beams ceiling
+wood beams and planks
+dentil moulding and planks
+square pane windows
+diamond pane windows
+half timber w/ windows
+wallpaper w/ windows
+wood planks w/ windows
+half timber w/ diamond windows
+wallpaper w/ diamond windows
+wood planks w/ diamond windows

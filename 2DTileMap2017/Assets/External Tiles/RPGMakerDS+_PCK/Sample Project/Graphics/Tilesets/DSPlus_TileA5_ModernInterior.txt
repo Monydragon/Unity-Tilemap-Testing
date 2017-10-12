@@ -1,0 +1,96 @@
+Wooden Platform
+Wooden Floor
+Wooden Floor
+Carpet
+Stairway (Down)
+Stairway (Up)
+Tiled Floor
+Tiled Floor
+Carpet
+Stone Tiles
+Carpet
+Carpet
+Stairway (Down)
+Stairway (Up)
+Tiled Floor
+Carpet
+Decorative Floor
+Carpet
+Carpet
+Carpet
+Tiled Floor
+Tiled Floor
+Tiled Floor
+NONE
+Wooden Floor
+Wooden Floor
+Stairway
+Wooden Wall
+Wooden Floor
+Wooden Floor
+Wooden Floor
+Wooden Floor
+Broken Wooden Floor
+Wood Scraps
+Basketball Hoop Shadow
+Basketball Hoop Shadow
+Wooden Floor
+Wooden Floor
+Wooden Floor
+Wooden Floor
+Broken Wooden Floor
+Stairway (Up)
+Stairway (Down)
+Scuffed Interior Edge
+Wooden Floor
+Wooden Floor
+Wooden Floor
+Wooden Floor
+Wooden Wall Beam
+Wooden Wall Beam
+Clock
+Broken Wooden Wall
+Cobweb
+Tent Wall Interior
+Tent Wall Interior
+Tent Wall Interior
+Wooden Wall Beam
+Interior Edge Protrusion
+Broken Wooden Wall
+Broken Wooden Wall
+Broken Wooden Wall
+Tent Wall Interior
+Tent Wall Interior
+Tent Wall Interior
+Curtain
+Wall Protrusion
+Wall Beam
+Interior Edge Protrusion
+Clock
+Tent Floor
+Tent Floor
+Tent Floor
+Curtain
+Wall Protrusion
+Wall Protrusion
+Contraption
+Gadget
+Tent Floor
+Tent Floor
+Tent Window Flap
+Curtain
+Wall Protrusion
+Tatami
+Contraption
+House Roof
+House Roof
+Hanging Clothes
+Hanging Clothes
+Tatami
+Tatami
+Tatami
+Contraption
+House Roof
+House Roof
+Hanging Clothes
+Hanging Clothes

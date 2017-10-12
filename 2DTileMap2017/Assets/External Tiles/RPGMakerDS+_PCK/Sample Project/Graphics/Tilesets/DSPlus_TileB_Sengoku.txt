@@ -1,0 +1,257 @@
+Transparent
+Rooftop
+Rooftop
+Rooftop
+Rooftop
+Rooftop
+Rooftop
+Rooftop
+NONE
+Window
+Window
+Rooftop
+Rooftop
+Rooftop
+Rooftop
+Rooftop
+Rooftop
+Rooftop
+Rooftop
+Rooftop
+Rooftop
+Rooftop
+Rooftop
+Rooftop
+Rooftop
+Rooftop
+Rooftop
+Rooftop
+Rooftop
+Wall
+Wall
+Wall
+Rooftop
+Rooftop
+Rooftop
+Rooftop
+Rooftop
+Wall
+Window
+Wall
+Rooftop
+Rooftop
+Rooftop
+Rooftop
+Rooftop
+Wall
+Window
+Wall
+Broken Rooftop
+Rooftop
+Rooftop
+Rooftop
+Rooftop
+Rooftop
+Rooftop
+Rooftop
+Broken Rooftop
+Broken Rooftop
+Rooftop with Rocks
+Rooftop
+Rooftop
+Rooftop
+Rooftop
+Rooftop
+Wall with Grass
+Wall with Grass
+Rooftop with Rocks
+Rooftop
+Rooftop
+Rooftop
+Rooftop
+Rooftop
+Window
+Broken Window
+Broken Window
+Rooftop
+Rooftop
+Rooftop
+Rooftop
+Rooftop
+Broken Window
+Window
+Window
+Rooftop
+Rooftop
+Rooftop
+Rooftop
+Table
+Window
+Sign
+Sign
+Rooftop
+Rooftop
+Table with Goods
+Table with Goods
+Table with Goods
+Sign
+Sign
+Sign
+Sign
+Sign
+Crate
+Curtain
+Curtain
+Thatched Mat
+Buckets
+Logs
+Lantern
+Statue
+Statue
+Statue
+Statue
+Thatched Mat
+Cushion
+Sign
+Parasol
+Table
+Rock
+Parasol
+Parasol
+Thatched Mat
+Thatched Mat
+Thatched Mat
+Table
+Table
+Table
+Parasol
+Parasol
+Rooftop
+Rooftop
+Rooftop
+Rooftop
+Rooftop
+Window
+Roof Gable
+Roof Gable
+Rooftop
+Rooftop
+Rooftop
+Rooftop
+Rooftop
+Window
+Roof Gable
+Roof Gable
+Rooftop
+Rooftop
+Wall on Roof
+Wall on Roof
+Rooftop
+Wall
+Wall
+Wall
+Rooftop
+Wall on Roof
+Window (Wall on Roof)
+Window (Wall on Roof)
+Rooftop
+Shop Veranda
+Shop Veranda
+Shop Veranda
+Wall
+Wall
+Wall
+Wall
+Wall
+Wooden Railings
+Wooden Railings
+Wooden Railings
+Wall
+Door
+Door
+Door
+Wall
+River
+River
+River
+Window
+Window
+Window
+NONE
+NONE
+NONE
+Railings over River
+Railings over River
+River
+River
+River
+River
+River
+NONE
+Railings over River
+Railings over River
+River
+NONE
+River
+River
+River 
+NONE
+Railings over River
+Railings over River
+River
+River
+River
+NONE
+NONE
+NONE
+Railings over River
+Railings over River
+NONE
+NONE
+Perimeter Opening Rooftop
+Perimeter Opening Rooftop
+Perimeter Opening Rooftop
+NONE
+NONE
+NONE
+Perimeter Wall
+Perimeter Wall
+Perimeter Opening
+Perimeter Opening
+Perimeter Opening
+Perimeter Wall
+Perimeter Wall
+Perimeter Wall
+Perimeter Wall
+Perimeter Wall
+Perimeter Opening
+NONE
+Perimeter Opening
+Perimeter Wall
+Perimeter Wall
+Perimeter Wall
+NONE
+NONE
+Perimeter Opening Rooftop
+Perimeter Opening Rooftop
+Perimeter Opening Rooftop
+NONE
+NONE
+NONE
+Perimeter Wall
+Perimeter Wall
+Perimeter Opening
+Perimeter Opening
+Perimeter Opening
+Perimeter Wall
+Perimeter Wall
+Perimeter Wall
+Perimeter Wall
+Perimeter Wall
+Perimeter Opening
+NONE
+Perimeter Opening
+Perimeter Wall
+Perimeter Wall
+Perimeter Wall
+Perimeter Wall

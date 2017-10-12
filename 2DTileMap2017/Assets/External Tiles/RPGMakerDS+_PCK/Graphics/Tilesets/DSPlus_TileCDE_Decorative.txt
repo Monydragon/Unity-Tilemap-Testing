@@ -1,0 +1,256 @@
+Grass Cliff
+Grass Cliff
+Grass Cliff
+Sand
+Rock
+Shell
+Skeleton
+Books
+Snow Cliff
+Snow Cliff
+Snow Cliff
+Seaweed
+Conch
+Conch
+Skeleton
+Books
+Sand Cliff
+Sand Cliff
+Sand Cliff
+Shells
+Shells
+Sand
+Logs
+Saucepan
+Stone Steps
+Dirt Steps
+Snow Steps
+Metal Scrap
+Metal Scrap
+Metal Scrap
+Rock Fragment
+Bread Basket
+Railings over River
+Railings over River
+Railings over River
+Shrub (Snow)
+Bush (Snow)
+Logs (Snow)
+Stump (Snow)
+NONE
+Railings over River
+Railings over River
+NONE
+Well (Snow)
+Snowman
+Melted Snowman
+Sign
+NONE
+Railings over River
+Railings over River
+Streetlamp
+Streetlamp
+Streetlamp
+Streetlamp
+NONE
+NONE
+Railings over River
+Railings over River
+Railing
+NONE
+Clock
+Car
+Car
+Car
+Railings over River
+Railings over River
+Window
+Vending Machine
+Vending Machine
+Car
+Car
+Car
+Vanity Table
+NONE
+Window
+Vending Machine
+Vending Machine
+Car
+Car
+Car
+Vanity Table
+Rowboat
+Rowboat
+Rowboat
+Rowboat
+Car
+Car
+Car
+NONE
+Rowboat
+Rowboat
+Rowboat
+Rowboat
+Car
+Car
+Car
+NONE
+Motorboat
+Motorboat
+Border
+Border
+Car
+Car
+Car
+NONE
+Motorboat
+Motorboat
+Border
+Menu
+Car
+Car
+Car
+NONE
+NONE
+NONE
+Wall Hatch with Tray
+Wall Hatch with Tray
+Car
+Car
+Car
+NONE
+NONE
+NONE
+Wall Hatch with Tray
+Wall Hatch with Tray
+Car
+Car
+Car
+Plant Pot with Tree
+Plant Pot with Tree
+Plant Pot with Tree
+Tree Overlap
+Tree
+Tree
+Tree
+Tree
+Plant Pot with Tree
+Plant Pot with Tree
+Plant Pot with Tree
+Tree
+Tree
+Tree
+Tree
+Tree
+Plant Pot with Tree
+Plant Pot with Tree
+Plant Pot with Tree
+Tree
+Tree Overlap
+Tree Overlap
+Tree Overlap
+Tree Overlap
+Palm Tree
+Palm Tree
+Palm Tree Overlap
+Palm Tree Overlap
+Tree Overlap
+Tree Overlap
+Tree Overlap
+Tree Overlap
+Palm Tree
+Palm Tree
+Palm Tree Overlap
+Palm Tree Overlap
+Flowers
+Shrubs
+Bush
+Bush
+NONE
+NONE
+Plant Pot
+Plant Pot
+Plant Pot
+Vines
+Flowers
+Flowers
+NONE
+NONE
+Plant Pot
+Plant Pot
+Plant Pot
+Vines
+Rock
+Pebbles
+NONE
+NONE
+Plant Pot
+Plant Pot
+Plant Pot
+Stump
+Shrubs
+Shrubs
+Cliff Edge
+Cliff Edge
+Cliff Bottom
+Cliff Bottom
+Tree
+Tree
+Tree Overlap
+Tree Overlap
+NONE
+NONE
+NONE
+NONE
+Tree
+Tree
+Tree Overlap
+Tree Overlap
+NONE
+NONE
+Snow Cliff Edge
+Snow Cliff Edge
+Grass Cliff Edge
+Grass Cliff Edge
+Grass Cliff Edge
+Grass Cliff Edge
+NONE
+NONE
+Snow Cliff Edge
+Snow Cliff Edge
+Grass Cliff Edge
+Grass Cliff Edge
+Grass Cliff Edge
+Grass Cliff Edge
+NONE
+NONE
+Snow Cliff Edge
+Snow Cliff Edge
+Snow Cliff Edge
+Snow Cliff Edge
+Grass Cliff Edge
+Grass Cliff Edge
+NONE
+NONE
+Snow Cliff Edge
+Snow Cliff Edge
+Snow Cliff Edge
+Snow Cliff Edge
+Grass Cliff Edge
+Grass Cliff Edge
+NONE
+NONE
+Glass Unit
+Glass Unit
+Wooden Wall
+Window
+Broken Window
+Broken Window
+NONE
+NONE
+Glass Unit
+Glass Unit
+Wall
+Broken Window
+Window
+Border

@@ -1,0 +1,35 @@
+Thank you kindly for purchasing this resource pack! /i do hope that it serves you well.
+
+=========Regarding some of the resources in this pack=========
+This is the first pack in the 2nd Generation of Pioneer Valley Games resources. What is the difference between this 2nd Generation and the first Generation of resources? I am glad you asked! All packs in the 2nd Generation will focus more on giving YOU the user control over what you put into your games. Instead of giving just a pack of pre-made characters, I want to give you the pieces for you to make dozens, hundreds, even thousands of unique characters utilizing a "paperdoll" method. What this means is you just open the base template for the character you want, and then add the clothing items that you desire. It is fast and simple once you get the hang of it, and you control what your characters look like.
+
+You will need some software to utilize these resources. The How-To guides all use GIMP, which is a free to download program akin to Photoshop. You do not have to use GIMP, but you will need software that can handle multiple layers, and since GIMP is free and easy to use, I use that as the point of reference. None of the resources will require much more than copy and pasting, and perhaps some erasing if necessary (and color changing if you wish to alter the colors of the various pieces). 
+
+All tile pieces were primarily meant to be used in a "parallax" mapping fashion. This means that they are best utilized when creating your game maps in a program such as GIMP or Photoshop since you will have much more control over the creation of your map than within the RPGMaker editor itself. However, these tiles can still be used directly in the RPG Maker editor if you so wish, and several simple example maps have been included in this pack.
+
+All character animations require 3rd party scripts if used in RPGMaker products. Included in the demo are a set of script modules created by Dekita, who will also provided updates, bug fixes, and general maintenance for the scripts. You can find the link to the latest version of the scripts on my website: www.pioneervalleygames.com
+
+To use the Animated Battlers, you will require another script that will allow you to do so. There are multiple of these in the forums on the official RPG Maker site. Just head here: http://forums.rpgmakerweb.com/
+and then check out their script section of the appropriate RPG Maker product. 
+
+You can find which scripts I personally use to make the demo videos on my site FAQ section : www.pioneervalleygames.com
+
+
+
+==========Terms of Use============
+All resources in this bundle are free to use in commercial and non-commercial projects. You are free to use these resources in conjunction with any game-making software you choose. You are prohibited from freely distributing any of the resources in part or in whole, and you are also prohibited from selling any of these resources. They are for use in projects only.
+
+
+
+
+If you have any questions, comments, concerns, or requests for future products, please visit our website:
+
+www.pioneervalleygames.com
+
+Or stop by our Facebook page and say Hi!
+
+http://www.facebook.com/PioneerValleyGames
+
+
+Thank you kindly,
+-Jesse

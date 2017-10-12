@@ -1,0 +1,128 @@
+Grass
+Snow
+Water
+Water
+Stone Wall
+Dirt
+Wooden Floor
+Thatched Floor
+Stones (Grass)
+Sand
+Gravel
+Wooden Floor
+Stone Wall
+Stairway
+Stairway
+Stairway
+Wooden Floor
+Wooden Floor
+Gravel
+Wooden Floor
+Stairway (Snow)
+Stairway (Rock)
+Stairway (Stone)
+Stairway (Stone Pattern)
+Stone Tiles
+Stone Tiles
+Rock
+Tatami
+Tatami
+Tatami
+Stairway (Down)
+Stairway (Up)
+Stone Floor
+Stone Floor
+Tatami
+Tatami
+Tatami
+NONE
+Cliff (Grass)
+Cliff (Grass)
+Crevasse
+Crevasse
+Crevasse
+Wooden Platform
+Wooden Platform
+Wooden Platform
+Cliff (Sand)
+Cliff (Sand)
+Crevasse
+Crevasse
+Crevasse
+Wooden Platform
+Wooden Platform
+Wooden Platform
+Cliff (Snow)
+Cliff (Snow)
+Stone Surface
+Stone Surface
+Stone Surface
+Platform Support
+Platform Support
+Platform Support
+Rock on Cliff (Grass)
+Rock on Cliff (Sand)
+Stone Surface
+Stone Surface
+Stone Surface
+Platform Support
+Platform Support
+Platform Support
+Darkness
+Rock on Cliff (Snow)
+Stone Wall
+Stone Wall
+Stone Wall
+Under Platform
+Platform Support
+Cliff Opening (Grass)
+Cliff Opening (Sand)
+Cliff Opening (Snow)
+Stone Wall
+Stone Wall
+Stone Wall
+Under Platform
+Platform Support
+Cliff Opening (Grass)
+Cliff Opening (Sand)
+Cliff Opening (Snow)
+Water (Stone Wall)
+Water (Stone Wall)
+Water (Stone Wall)
+Crops (Field)
+Field
+Wooden Fence
+Wooden Fence
+Wooden Fence
+Stone Wall
+Stone Wall
+Stone Wall
+Crops (Field)
+Field
+Wooden Fence
+Grass
+Wooden Fence
+Stone Surface Corners
+Stone Surface Corners
+Stone Wall Window
+Crops (Field)
+Field
+Wooden Fence
+Wooden Fence
+Wooden Fence
+Stone Surface Edges
+Stone Surface Edges
+Water (Stone Wall Window)
+Field
+Field
+Field
+Wooden Fence
+Wooden Fence
+Stone Surface Edges
+Stone Surface Edges
+Stone Wall Window
+Crops (Field)
+Crops (Field)
+Crops (Field)
+Wooden Fence
+Wooden Fence

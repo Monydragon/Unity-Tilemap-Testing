@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 1f827228c80a8ad4f99ba9dc14ccb9e9
+timeCreated: 1507785915
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: POPit
+  fontNames:
+  - POPit
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

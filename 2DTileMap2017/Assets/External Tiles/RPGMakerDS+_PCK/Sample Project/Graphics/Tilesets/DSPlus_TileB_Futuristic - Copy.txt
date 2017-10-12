@@ -1,0 +1,248 @@
+TRANSPARENT
+Metal Wall
+Metal Wall
+Metal Wall
+Controller (Metal Wall)
+Interior Edge
+Wall Pipe
+Wall Pipe
+Metal Wall
+Metal Wall
+Metal Wall
+Metal Wall
+Controller (Metal Wall)
+Metal Wall
+Wall Pipe
+Wall Pipe
+Wall Cables
+Wall Cables
+Metal Wall
+Wall Duct
+Wall Screen
+Lamp
+Computer Monitor
+Wall Pipe
+Wall Cables
+Wall Cables
+Wall Vent
+Wall Plate
+Wall Screen
+Lamp
+Computer Monitor
+Bookshelf
+Metal Wall
+Screen
+Screen
+Screen
+Radar
+Information Screen
+Desk Corner
+Books on Desk
+Metal Wall
+Screen
+Screen
+Screen
+Information Panels
+Information Screen
+Desk
+Books on Desk
+Information Panels
+Information Panels
+Information Panels
+Information Panels
+Information Panels
+Information Panels
+Information Screen
+Wall Protrusion
+Isometric Screen
+Isometric Screen
+Isometric Screen
+Isometric Screen
+Information Panels
+Information Panels
+Information Screen
+Wall Protrusion
+Isometric Screen
+Isometric Screen
+Isometric Screen
+Isometric Screen
+Information Panels
+Information Panels
+Power Supply
+Wall Protrusion
+Screen
+Screen
+Screen
+Screen
+Screen
+NONE
+Power Supply
+Wall Protrusion
+Screen
+Screen
+Screen
+Screen
+Screen
+Generator
+Generator
+Generator
+Platform
+Platform
+Wall Protrusion
+Holographic Screen
+Holographic Screen
+Generator
+Generator
+Generator
+Platform Light
+Platform Light
+Hologram
+Hologram
+Holographic Screen
+Lit Wall
+Vent
+Closed Duct
+Unlit Light
+Lit Light
+Station
+Station
+Station
+Light
+Generator
+Generator
+Folder Sign
+Folder Sign
+Station
+Station
+Station
+Gadget
+Red Laser
+Green Laser
+Folder Sign
+Folder Sign
+Folder Sign
+Folder Sign
+Empty Plant Pot
+Empty Plant Pot
+Empty Plant Pot
+Empty Plant Pot
+Upper Cliff Edge
+Upper Cliff Edge
+Upper Cliff Edge
+NONE
+Plant Pot
+Plant Pot
+Plant Pot
+Palm Tree
+Electronic Gate
+Electronic Gate
+Teleportation Pad
+Teleportation Pad
+Teleportation Pad
+Sculpture
+Sculpture
+Palm Tree
+Electronic Gate
+Electronic Gate
+Teleportation Pad
+Teleportation Pad
+Teleportation Pad
+Sculpture
+Sculpture
+Potted Plant
+Futuristic Stairway
+Futuristic Stairway
+Teleportation Pad
+Teleportation Pad
+Teleportation Pad
+Teleport Swirl
+Teleport Swirl
+Potted Plant
+Information Screen
+Information Vendor
+Teleportation Pad
+Teleportation Pad
+Teleportation Pad
+Teleport Swirl
+Teleport Swirl
+NONE
+Information Screen
+Information Vendor
+Teleportation Pad
+Teleportation Pad
+Teleportation Pad
+Futuristic Fence
+Futuristic Fence
+Futuristic Fence
+Mailbox
+Mailbox
+Teleportation Pad
+Teleportation Pad
+Teleportation Pad
+Futuristic Fence
+Futuristic Fence
+Futuristic Fence
+Mailbox
+Mailbox
+Computer
+Chair
+Chair
+Futuristic Fence
+Futuristic Fence
+Futuristic Fence
+Shelf
+Poster
+Computer
+Chair
+Chair
+Futuristic Fence
+Futuristic Fence
+Futuristic Fence
+Screen Middle
+Table
+Table
+Chair
+Hologram
+Futuristic Fence
+Futuristic Fence
+Futuristic Fence
+Screen Middle
+NONE
+Stool
+Chair
+Bed
+Futuristic Fence
+Futuristic Fence
+Futuristic Fence
+Power Supplier
+Power Supplier
+NONE
+Chair
+Bed
+Teleportation Pad
+Teleportation Pad
+Teleportation Pad
+Power Supplier
+Power Supplier
+Power Supplier
+Power Supplier
+Plant Pot
+Teleportation Pad
+Teleportation Pad
+Teleportation Pad
+NONE
+NONE
+Power Supplier
+Power Supplier
+Plant Pot
+Teleportation Pad
+Teleportation Pad
+Teleportation Pad
+NONE
+NONE
+Power Supplier
+Power Supplier
+Plant Pot
+NONE
+NONE
+NONE

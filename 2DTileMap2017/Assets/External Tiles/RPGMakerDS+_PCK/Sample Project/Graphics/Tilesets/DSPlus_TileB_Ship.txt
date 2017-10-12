@@ -1,0 +1,112 @@
+TRANSPARENT
+Bow
+Bow
+Bow
+NONE
+Cage
+Cage
+Vase
+Bow
+Bow
+Bow
+Bow
+Bow
+Cage
+Cage
+Anchor Hitch
+Bow
+Bow
+NONE
+Bow
+Bow
+Rowboat
+Rowboat
+Anchor Hitch
+Bow
+Prow
+Prow
+Prow
+Bow
+Crate
+Barrel
+Floatation Ring
+Deck
+Mast
+Prow
+Mast
+Deck
+Crate
+Rope
+Anchor
+Deck
+Helm
+Prow
+Mast
+Deck
+Crow's Nest
+Crow's Nest
+Crow's Nest
+Deck
+Helm
+Prow
+Mast
+Deck
+Crow's Nest
+Crow's Nest
+Crow's Nest
+Poopdeck
+Poopdeck
+Prow
+Mast
+Poopdeck
+Crow's Nest
+Crow's Nest
+Crow's Nest
+Stern
+Cannon
+Cannon
+Cannon
+Stern
+NONE
+Mast
+NONE
+Stern
+Cannon
+Cannon
+Cannon
+Stern
+NONE
+Mast
+NONE
+Stern
+Cannon
+Cannon
+Cannon
+Stern
+NONE
+Mast
+NONE
+NONE
+Cannon
+Cannon
+Cannon
+NONE
+NONE
+NONE
+NONE
+Sail
+Sail
+Sail
+Sail
+Sail
+Sail
+Sail
+NONE
+Sail
+Sail
+Sail
+Sail
+Sail
+Sail
+Sail
+NONE

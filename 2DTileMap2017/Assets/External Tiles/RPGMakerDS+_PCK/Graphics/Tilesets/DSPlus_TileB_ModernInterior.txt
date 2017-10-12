@@ -1,0 +1,255 @@
+TRANSPARENT
+Window
+Window
+Window
+Window
+Window
+Picture Frame
+NONE
+NONE
+Window
+Window
+Window
+Window
+Window
+Picture Frame
+Picture Frame
+Shelf
+Shelf
+Shelf
+Shelf
+Cuddly Rabbit
+Cushion
+Calendar
+Poster
+Bed
+Bed (Blanket)
+Desk
+Desk
+Potted Plant
+Calendar
+Scroll
+Wall Protrusion
+Bed
+Mirror
+Desk
+Desk
+Cardboard Box
+Cardboard Box
+Cardboard Box
+Wall Protrusion
+Bed
+Chair
+Chair
+Unit with Lamp
+Television
+Empty Unit Top
+Unit with Flowers
+Cupboard Door
+Television
+Chair
+Chair
+Unit Bottom
+Teapot and Cups
+Unit with Drawers
+Bookshelf
+Cupboard Door
+Television
+Television
+Stereo
+Stereo
+Wardrobe
+Wardrobe
+Glass Unit
+Glass Unit
+Television
+Television
+Stereo
+Stereo
+Wardrobe
+Wardrobe
+Glass Unit
+Glass Unit
+Futon
+Unit with Picture Frames
+Unit with Phone
+Empty Unit Top
+Empty Unit Top
+Sliding Door
+Sliding Door
+Sliding Door
+Futon
+Unit with Drawers
+Unit with Drawers
+Unit with Drawers
+Unit with Drawers
+Sliding Door
+Sliding Door
+Sliding Door
+Flowerpot
+Cushion
+Bathtub
+Bathtub
+Fridge
+Kitchen Vent
+Cupboard and Shelves
+Cupboard
+Sofa
+Sofa
+Bathtub
+Bathtub
+Fridge
+Sink
+Cupboard and Shelves
+Stove
+Sofa
+Sofa
+Bathtub
+Bathtub
+Foot Stool
+Kitchen Unit
+Kitchen Unit
+Oven
+Sofa
+Sofa
+Bathtub
+Bathtub
+Toilet
+Sink and Mirror
+Sink and Mirror
+Washing Machine
+Sofa
+Sofa
+Bathtub
+Vent
+Toilet
+Sink and Mirror
+Sink and Mirror
+Washing Machine
+Shower Curtain
+Shower Curtain
+Shower Curtain
+Shower
+Urinal
+Toilet
+Laundry Basket
+Laundry Basket
+Shower Curtain
+Shower Curtain
+Shower Curtain
+Shower
+Urinal
+Toilet
+Crib
+NONE
+NONE
+NONE
+NONE
+Shower
+NONE
+NONE
+Crib
+NONE
+Window
+Window
+NONE
+Map
+Map
+Elevator
+Stairway (Down)
+Stairway (Up)
+Window
+Window
+Phone
+Cupboard
+Vault
+Elevator
+Stairway (Down)
+Stairway (Up)
+Window
+Window with Blinds
+Window with Blinds
+Noticeboard
+X-Ray Board
+X-Ray Board
+Evidence
+Switchboard
+Window
+Window with Blinds
+Window with Blinds
+Noticeboard
+X-Ray Board
+X-Ray Board
+Evidence
+Controls
+Unit with Shelves
+Unit with Books
+Unit with Doors
+Locker
+Glass Unit
+Unit with Drawers
+Unit with Drawers
+Fax Machine
+Unit with Shelves
+Unit with Books
+Unit with Doors
+Locker
+Glass Unit
+Unit with Drawers
+Unit with Drawers
+Wall Protrusion
+Glass Chamber
+Power Supply
+Lockers
+Lockers
+Lockers
+Lockers
+Unit
+Wall Protrusion
+Glass Chamber
+Power Supply
+Lockers
+Lockers
+Lockers
+Lockers
+Unit
+Unit with Document
+Phone
+Chair
+Chair
+Wheelchair
+Stool
+Chair
+Paper Tray
+Controls
+Chair
+Chair
+Chair
+Chair
+Chair
+Chair
+Computer
+Computer
+Chair
+Chair
+Opposing Desks
+Opposing Desks
+Desk
+Desk with Books
+Computer
+Opposing Computers
+Books
+Laptop
+Opposing Desks
+Opposing Desks
+Desk
+Desk
+Computer
+Opposing Computers
+Phone
+Noticeboard
+Bookshelf
+Screen
+Bookshelf
+Unit
+Unit with Surgeon Tools

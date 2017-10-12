@@ -1,0 +1,44 @@
+The Themes for DS+ contains:
+
+Japanese Sengoku Era Tileset
+Modern Era Tileset
+Futuristic Era Tileset
+A Custom-made Fantasy Ship Tileset
+
+The List goes as follows: 
+(This number doesn't include the custom made sets.)
+3 A1 Tiles
+5 A2 Tiles
+5 A4 Tiles
+7 A5 Tiles
+7 Tile Bs
+3 Tile Cs
+1 Tile D
+
+120 Sample Maps as well as their Passabilities set.
+All of the tiles are labelled so they are viewable on the editor. 
+This was done for people that are not familiar with Japanese Culture and the objects that can be found throughout all timelines.
+
+-----------------------------------------------------------
+
+The Battleback List is listed in a XLSX files on what they are and how many.
+43 DS-Styled Battlers Ranging from Fantasy to Sci-Fi
+124 Chibi Battlers that matches RMDS and RMDS+ Monsters. Including some from Samurai Pack.
+
+Battlebacks and Battlers have high resolution versions included.
+
+27 Character Sets, 10 being map decorations and the rest includes unique charactersets as well as Behaviour sprites.
+
+A Footsteps Effects Script by Neonblack, commissioned by Archeia.
+5 Scripts from Fomar0153
+A Console Script by Zalerinian. As well as a Script that makes an NPC buy specific items or not.
+
+191 Generator Parts including a Custom Generator.
+There are 146 Busts and 23 Facesets with various emotions.
+
+2 Emoticon Balloons
+20 BGMS remastered from RMDS.
+
+A Tutorial on how to import the materials into the editor and how to copy and paste the Sample Maps to existing projects, as well as copy the passabilities.
+A Tutorial about Shift-Click Mapping.
+

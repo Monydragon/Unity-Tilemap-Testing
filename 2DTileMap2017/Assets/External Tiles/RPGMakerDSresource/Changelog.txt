@@ -1,0 +1,28 @@
+============================================================
+Changelog.txt
+RPG MAKER DS Resource Pack Version 1.04
+============================================================
+
+30th April, 2013:
+Fixed colors issue in Dungeon_Sewer_TileA5
+Added New Freebies!
+
+>> 7 March, 2013
+New Freebies! Add-ons to decorate your maps more
+Added a new tutorial about the sewer tileset.
+
+14 Feb, 2013:
+Fixed beach water autotile corners in Exterior_TileA1
+
+1 Feb, 2013: 
+Fixed dislocation error in Exterior_TileA4
+
+26 Jan, 2013: 
+Fixed Straw Roof in Exterior_TileA3.
+Fixed and added expansion to wooden house deck in Exterior_Town_TileD.
+Added 2 more Flower Patches in Exterior_Forest_TileC.
+Added !Doors2 in Event Graphics which are basically those in !Doors1 with dark background.
+
+
+
+

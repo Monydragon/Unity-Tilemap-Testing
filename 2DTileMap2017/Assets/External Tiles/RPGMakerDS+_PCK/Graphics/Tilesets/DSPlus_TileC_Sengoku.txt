@@ -1,0 +1,179 @@
+Tree
+Tree
+Tree Overlap
+Tree Overlap
+Tree
+Tree
+Tree Overlap
+Tree Overlap
+Tree
+Tree
+Tree Overlap
+Tree Overlap
+Tree
+Tree
+Tree Overlap
+Tree Overlap
+Tree
+Tree
+Tree Overlap
+Tree Overlap
+Perimeter Wall
+Perimeter Wall
+Perimeter Wall
+NONE
+Tree
+Tree
+Tree Overlap
+Tree Overlap
+Perimeter Wall
+Perimeter Wall
+Perimeter Wall
+Perimeter Wall
+Shrine Entrance
+Shrine Entrance
+Shrine Entrance
+Shrine Entrance
+Perimeter Wall
+NONE
+Perimeter Wall
+Perimeter Wall
+Shrine Entrance
+Shrine Entrance
+Shrine Entrance
+Shrine Entrance
+Perimeter Wall
+Perimeter Wall
+Perimeter Wall
+Perimeter Wall
+Shrine Entrance
+Shrine Entrance
+Shrine Entrance
+Shrine Entrance
+Perimeter Wall
+Perimeter Wall
+Perimeter Wall
+Perimeter Wall
+Fence Rails
+Crate
+NONE
+NONE
+NONE
+Temple Roof
+NONE
+NONE
+Lantern
+Statue
+Statue
+NONE
+Temple Roof
+Temple Roof
+Temple Roof
+NONE
+Lantern
+Statue
+Statue
+Temple Roof
+Temple Roof
+Temple Roof
+Temple Roof
+Temple Roof
+Temple Roof
+Temple Roof
+Temple Roof
+Temple Roof
+Temple Roof
+Temple Roof
+NONE
+NONE
+Temple Roof
+Temple Roof
+Temple Roof
+Temple Roof
+Temple Roof
+NONE
+Temple Roof
+NONE
+Temple
+Temple
+Temple
+Temple
+NONE
+Temple
+Temple
+Temple
+Temple
+Temple
+Temple
+Temple
+NONE
+Temple
+Temple
+Temple
+Temple
+Temple
+Temple
+Temple
+Temple
+Temple
+Temple
+Temple
+NONE
+NONE
+Wall
+Wall
+Wall
+Rails
+Rails with Curtain
+Rails with Curtain
+Shrubs (Grass)
+Bush (Grass)
+Logs (Grass)
+Stump (Grass)
+Flower (Grass)
+Wooden Bridge
+Wooden Bridge
+NONE
+Shrubs (Snow)
+Bush (Snow)
+Logs (Snow)
+Stump (Snow)
+Well (Snow)
+Snowman
+Melted Snowman
+NONE
+Tree (Snow)
+Tree (Snow)
+Tree Overlap (Snow)
+Tree Overlap (Snow)
+Cliff Face (Snow)
+Cliff Face (Snow)
+NONE
+NONE
+Tree (Snow)
+Tree (Snow)
+Tree Overlap (Snow)
+Tree Overlap (Snow)
+Rock on Cliff (Snow)
+Stairway (Snow)
+NONE
+NONE
+Fence (Snow)
+Fence (Snow)
+Fence (Snow)
+Fence (Snow)
+Fence (Snow)
+NONE
+NONE
+NONE
+Fence (Snow)
+Snow
+Fence (Snow)
+Fence (Snow)
+Fence (Snow)
+NONE
+NONE
+NONE
+Fence (Snow)
+Fence (Snow)
+Fence (Snow)

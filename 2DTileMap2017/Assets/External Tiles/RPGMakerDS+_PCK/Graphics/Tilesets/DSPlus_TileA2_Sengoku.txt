@@ -1,0 +1,28 @@
+Dirt
+Dirt (Snow)
+Long Grass
+Long Grass
+NONE
+NONE
+NONE
+Dark Table
+Paving
+Grass Patch
+NONE
+Rug
+NONE
+NONE
+NONE
+Light-coloured Table
+Grass
+Grass Alternative
+Dirt
+Thatched Platform
+NONE
+NONE
+NONE
+Table with Red Cloth
+Dirt
+Sand
+Wet Dirt
+Wet Dirt

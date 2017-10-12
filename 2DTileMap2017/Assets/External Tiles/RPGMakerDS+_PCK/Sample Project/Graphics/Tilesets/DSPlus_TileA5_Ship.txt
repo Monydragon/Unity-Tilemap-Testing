@@ -1,0 +1,38 @@
+Wooden Floor
+Wooden Rails
+Stairway (Up)
+Stairway (Down)
+Fish Storage
+Fish Storage
+NONE
+NONE
+Wooden Wall
+Wooden Floor
+Stairway
+NONE
+Fish Storage
+Fish Storage
+NONE
+NONE
+Wooden Wall
+Wooden Floor
+Broken Wooden Floor
+Broken Wooden Floor
+Wood Scrap
+Porthole
+NONE
+NONE
+Wooden Wall Beam
+Scuffed Interior Edge
+Clock
+Broken Wooden Wall
+Cobweb
+Porthole
+NONE
+NONE
+Wooden Wall Beam
+Wooden Wall Beam
+Broken Wooden Wall
+Broken Wooden Wall
+Broken Wooden Wall
+Porthole

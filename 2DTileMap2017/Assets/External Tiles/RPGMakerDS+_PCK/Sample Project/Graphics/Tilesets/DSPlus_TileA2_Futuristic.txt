@@ -1,0 +1,36 @@
+Sand Covered Road
+Cement
+Grass
+Dirt Path
+NONE
+NONE
+NONE
+Futuristic Counter
+NONE
+NONE
+NONE
+NONE
+NONE
+NONE
+NONE
+Reception Desk
+NONE
+NONE
+NONE
+NONE
+NONE
+NONE
+NONE
+Futuristic Table
+NONE
+NONE
+NONE
+NONE
+NONE
+NONE
+NONE
+Futuristic Table
+
+
+
+

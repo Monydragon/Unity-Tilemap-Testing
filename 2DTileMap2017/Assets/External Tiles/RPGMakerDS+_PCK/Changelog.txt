@@ -1,0 +1,36 @@
+============================================================
+Changelog.txt
+RPG MAKER DS+ Resource Pack Version 1.01
+============================================================
+October 24, 2013 (Version 1.02)
+- Rewritten ReadMe and Credits.
+- Fixed the following Battlers:
+* Wyvern
+* Vampire
+* Sylphid-B (has isolation issues with shadow, hair, and upper half of her dress).
+* Sylphid-A
+* Queen
+* OrkLord
+* Minotaur (white artifacts around body, tail, mane, and feet)
+* LizardMan
+* Lich
+* GreatDevil
+* Goliath (white artifacts around cape, armor, and shadow)
+* Golem
+* Gargoyle
+* Death-B (artifacts most noticeably around shadow, but also his robe)
+* Death-A
+* Cyclops
+* Cerberus
+* BlackDragon
+
+- Added Missing Resources
+* Car
+
+September 15, 2013 (Version 1.01)
+- Added Missing Resources.
+- Fixed the Charset Sheet, Robot-1.
+- Added Generator Guide.
+
+September 13, 2013 (Version 1.00)
+- Initial Release

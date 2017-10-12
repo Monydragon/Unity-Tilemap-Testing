@@ -1,0 +1,256 @@
+leave blank
+big tree
+big tree
+big tree
+big tree
+log
+cattail
+rocks
+bush
+big tree
+big tree
+big tree
+big tree
+stump
+mushrooms
+rock
+raspberry bush
+big tree
+big tree
+big tree
+big tree
+dirt clod
+bush
+rock
+blackberry bush
+?????
+big tree
+big tree
+?????
+thick grass
+pansies
+arnica
+sapling
+tree
+tree
+tree tile
+tree tile
+mint
+flower
+ivy
+sapling
+tree
+tree
+tree tile
+tree tile
+tree line opening
+tree line sapling
+tree line gap
+ivy doorway
+tree
+tree
+tree tile
+tree tile
+tree line opening
+tree line sapling
+tree line gap
+ivy doorway
+dead tree
+dead tree
+metal ladder
+?????
+bench
+bench
+bench
+cave
+dead tree
+dead tree
+metal ladder
+?????
+bench
+bench
+bench
+cave
+dead tree
+dead tree
+rope ladder
+dead vine
+bench
+bench
+bench
+lantern
+dead tree
+dead tree
+rope ladder
+dead vine
+bench
+bench
+bench
+dug out wall
+cave in
+gold vein
+rope ladder
+dead vine
+firewood
+firepit
+roots
+dug out wall
+cave in
+gold vein
+rail end
+rail curve
+rail split
+rail split
+rail curve
+bucket
+stalagmites
+gems (for walls)
+rail end
+rail split
+broken rail
+rail
+rail split
+mine entrance
+mine entrance
+mine entrance
+rail end
+rail split
+rail
+rail cross
+rail split
+mine entrance
+mine entrance
+mine entrance
+rail end
+rail curve
+rail split
+rail split
+rail curve
+window day
+window day
+window dark
+window dark
+diamond window day
+diamond window day
+diamond window dark
+diamond window dark
+window day
+window day
+window dark
+window dark
+diamond window day
+diamond window day
+diamond window dark
+diamond window dark
+window lit
+window lit
+shuttered window
+shuttered window
+diamond window lit
+diamond window lit
+flower box
+flower box
+window lit
+window lit
+shuttered window
+shuttered window
+diamond window lit
+diamond window lit
+flower box
+chimney pipe
+window lit
+window day
+window dark
+shuttered window
+diamond window lit
+diamond window day
+diamond window dark
+stained glass
+window lit
+window day
+window dark
+shuttered window
+diamond window lit
+diamond window day
+diamond window dark
+stained glass
+doorway
+double doorway
+double doorway
+round window lit
+round window day
+round window dark
+vent
+notice
+doorway
+double doorway
+double doorway
+round window lit
+round window day
+round window dark
+vent
+notice
+bridge
+bridge
+bridge
+chimney (red brick)
+empty message board
+message board
+signpost
+sign
+bridge
+bridge
+bridge
+chimney (tan brick)
+metal sign
+inn
+blacksmith
+items
+bridge
+bridge
+bridge
+flag
+lamps
+lamp left
+lamp right
+empty sign
+bridge
+bridge
+bridge
+flag
+lamp post
+open barrel
+barrel
+crate
+bridge
+bridge
+bridge
+brick post bottom
+metal post bottom
+barrel
+barrel
+crate
+bridge
+bridge
+bridge
+bridge
+bridge
+bridge
+well
+well
+pickaxe and shovel
+crates
+crates
+bridge
+bridge
+bridge
+well
+well
+pickaxe and shovel
+crates
+crates
+?????
+?????
+?????
+bracket (for overhang)
+bracket (for overhang)

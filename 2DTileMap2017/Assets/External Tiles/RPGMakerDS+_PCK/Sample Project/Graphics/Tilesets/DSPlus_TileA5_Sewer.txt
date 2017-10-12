@@ -1,0 +1,64 @@
+Stone Tile
+Moss (Stone Tile)
+Moss (Stone Tile)
+Grate
+Cobblestone
+Cobblestone
+Railings (Cobblestone)
+NONE
+Dark Stone Tile
+Manhole Cover
+Cracked Stone
+Drainpipe
+Grate
+Grate
+NONE
+NONE
+Wall Pipes
+Wall Pipes
+Wall Pipes
+Wall Pipes
+Wall Grate
+Open Wall Grate
+Wall Light (Off)
+Wall Light (On)
+Wall
+Sewer Walkway Pipes
+Sewer Walkway Controls
+Sewer Walkway Controls
+Sewer Walkway Grate
+Cracked Sewer Walkway
+Mossy Sewer Walkway
+Lit Sewer Walkway
+Vertical Rail A
+Vertical Rail B
+NONE
+Wall Vent
+Wall
+Opening
+Metal Wall
+Entryway
+Horizontal Rail A
+Horizontal Rail B
+NONE
+NONE
+NONE
+NONE
+NONE
+Entryway
+NONE
+NONE
+NONE
+NONE
+NONE
+NONE
+NONE
+Entryway
+NONE
+NONE
+NONE
+NONE
+NONE
+NONE
+NONE
+Grate

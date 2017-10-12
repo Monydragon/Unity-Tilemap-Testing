@@ -1,0 +1,256 @@
+TRANSPARENT
+Window
+Window
+Window
+Window
+Window
+Window
+Window
+Window
+Window
+Window
+Rooftop
+Rooftop
+Rooftop
+Rooftop
+Rooftop
+Shop Sign
+Shop Sign
+Shop Sign
+Rooftop
+Rooftop
+Rooftop
+Rooftop
+Rooftop
+Shop Sign
+Shop Sign
+Shop Sign
+Rooftop
+Rooftop
+Rooftop
+Rooftop
+Rooftop
+Shop Sign
+Shop Sign
+Shop Sign
+Rooftop
+Rooftop
+Rooftop
+Rooftop
+Rooftop
+Shop Sign
+Shop Sign
+Shop Sign
+Rooftop
+Rooftop
+Rooftop
+Rooftop
+Rooftop
+Shop Sign
+Shop Sign
+Shop Sign
+Rooftop
+Rooftop
+Rooftop
+Rooftop
+Rooftop
+Shop Sign
+Shop Sign
+Shop Sign
+Rooftop
+Rooftop
+Rooftop
+Rooftop
+Rooftop
+Shop Sign
+Shop Sign
+Shop Sign
+Rooftop
+Rooftop
+Rooftop
+Rooftop
+Rooftop
+Shop Sign
+Shop Sign
+Shop Sign
+Road Sign
+Table
+Table with Goods
+Table with Goods
+Table with Goods
+Shop Sign
+Shop Sign
+Flowerbed
+Flowerbed
+Bench
+Bench
+Bench
+Bench
+Shop Veranda
+Shop Veranda
+Shop Veranda
+Phone Booth
+Vending Machine
+Vending Machine
+Station Entrance
+Station Entrance
+Shop Veranda
+Shop Veranda
+Shop Veranda
+Phone Booth
+Vending Machine
+Vending Machine
+Station Entrance
+Station Entrance
+Shop Veranda
+Shop Veranda
+Shop Veranda
+Trash Can
+Metal Rail
+Metal Rail
+Tent
+Manhole Cover
+Vent
+Vent
+Mail Box
+Trash
+Shop Display (Bunny)
+Tent
+Tent
+Tent
+Sign
+Sign
+Traffic Cone
+Traffic Barrier
+Shop Display (Bunny)
+Tent
+Tent
+Tent
+Display Flag
+Parking Meter
+Traffic Post
+Traffic Post
+Traffic Post
+Traffic Post
+Traffic Post
+Traffic Post
+Display Flag
+Parking Meter
+Traffic Post
+Traffic Post
+Traffic Post
+Traffic Post
+Traffic Post
+Traffic Post
+Streetlamp
+Streetlamp
+Traffic Post
+Traffic Post
+Traffic Post
+Traffic Post
+Traffic Post
+Traffic Post
+Car
+Car
+Traffic Post
+Traffic Post
+Pipes
+Pipes
+Construction Site
+Construction Site
+Car
+Car
+Traffic Post
+Construction Site
+Construction Site
+Construction Site
+Construction Site
+Construction Site
+Car
+Car
+Wall Top
+Wall Top
+Wall Top
+Wall Top
+Construction Site
+Construction Site
+Car
+Car
+Wall Top
+Wall Top
+Wall Top
+Wall Top
+NONE
+NONE
+Car
+Car
+Wall Top
+Wall Top
+Wall
+Bike Rack
+Bike Rack
+Bike Rack
+Car
+Car
+Bush
+Bush
+Bush
+Flower
+Shrubs
+Bush
+Tree
+Tree
+Tree
+Tree
+Bush
+NONE
+Wall
+Railing
+Tree
+Tree
+Tree
+Tree
+NONE
+NONE
+Pipe on Wall
+Water
+Tree Overlap
+Tree Overlap
+Tree Overlap
+Tree Overlap
+NONE
+NONE
+Railings over River
+Railings over River
+Tree Overlap
+Tree Overlap
+Tree Overlap
+Tree Overlap
+Wall
+Wall
+Railings over River
+Railings over River
+Bush
+Bush
+Bush
+Wall
+Wall
+Wall
+Railings over River
+Railings over River
+Bush
+Bush
+Bush
+Wall
+Wall
+Wall
+Railings over River
+Railings over River
+Bush
+Bush
+Bush
+Wall
+Wall
+Wall
+Railings over River
+Railings over River

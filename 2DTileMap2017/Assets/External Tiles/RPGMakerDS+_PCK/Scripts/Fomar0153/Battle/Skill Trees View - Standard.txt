@@ -1,0 +1,217 @@
+=begin
+Skill Tree View - Standard
+by Fomar0153
+Version 1.0
+----------------------
+Notes
+----------------------
+Allows you to implement skill trees or
+a system of buying skills with skill points
+Members+ Script.
+Please do not re-distribute.
+Requires an additional Skill Tree View Script.
+----------------------
+Instructions
+----------------------
+Setup the Skill Tree Core script first.
+
+Notetags for actors
+<skilltree Name>
+a,b
+c,d
+e
+f
+</skilltree>
+
+
+<skilltree Name>
+g
+h,i
+j
+</skilltree>
+Name is what you want the skill tree to be called in game.
+Also if a file is found in "Graphics/System" called "Skill Tree Name"
+then it will appear in the window. (Be aware that if opaque it will block
+the cursor)
+
+Then in between the <skilltree> tags you set your skills line by line
+the column_max will automatically adjust for rows with 3 or more elements.
+But there is unlikely to be room unless you are using a larger resolution.
+----------------------
+Known bugs
+----------------------
+None
+=end
+class Game_Actor < Game_Battler
+  #--------------------------------------------------------------------------
+  # * Parse Skill Tree
+  #--------------------------------------------------------------------------
+  def skilltree_parse(name, data)
+    st = [name,[]]
+    for line in data.split(/[\r\n]+/)
+      st[1].push(line.split(",")) unless line.split(",").size == 0
+    end
+    @skill_trees.push(st)
+  end
+end
+
+class Window_SkillTree < Window_Selectable
+  #--------------------------------------------------------------------------
+  # * Object Initialization
+  #--------------------------------------------------------------------------
+  def initialize(x, y, width, height)
+    super
+    @actor = nil
+    @tree_name = ""
+    @data = []
+  end
+  #--------------------------------------------------------------------------
+  # * Set Actor
+  #--------------------------------------------------------------------------
+  def actor=(actor)
+    return if @actor == actor
+    @actor = actor
+    refresh
+    self.oy = 0
+  end
+  #--------------------------------------------------------------------------
+  # * Set Tree Name
+  #--------------------------------------------------------------------------
+  def tree_name
+    @tree_name
+  end
+  #--------------------------------------------------------------------------
+  # * Set Tree Name
+  #--------------------------------------------------------------------------
+  def tree_name=(tree_name)
+    return if @tree_name == tree_name
+    @tree_name = tree_name
+    refresh
+    self.oy = 0
+  end
+  #--------------------------------------------------------------------------
+  # * Get Digit Count
+  #--------------------------------------------------------------------------
+  def col_max
+    @col_max || 2
+  end
+  #--------------------------------------------------------------------------
+  # * Get Number of Items
+  #--------------------------------------------------------------------------
+  def item_max
+    @data ? @data.size : 1
+  end
+  #--------------------------------------------------------------------------
+  # * Get Skill
+  #--------------------------------------------------------------------------
+  def item
+    @data && index >= 0 ? @data[index] : nil
+  end
+  #--------------------------------------------------------------------------
+  # * Get Activation State of Selection Item
+  #--------------------------------------------------------------------------
+  def current_item_enabled?
+    enable?(@data[index])
+  end
+  #--------------------------------------------------------------------------
+  # * Display Skill in Active State?
+  #--------------------------------------------------------------------------
+  def enable?(item)
+    return false if @actor == nil || item == nil ||@actor.skill_learn?(item)
+    if Fomar::TREES_SHARE_SKILL_POINTS
+      return false if @actor.skill_points < item.skill_points
+    else
+      return false if @actor.skill_points[@tree_name] < item.skill_points
+    end
+    for skill_id in item.require_all
+      return false unless @actor.skill_learn?($data_skills[skill_id])
+    end
+    flag = item.require_one.size == 0
+    for skill_id in item.require_one
+      if @actor.skill_learn?($data_skills[skill_id])
+        flag = true
+        break
+      end
+    end
+    return unless flag
+    for skill_id in item.exclusive
+      return false if @actor.skill_learn?($data_skills[skill_id])
+    end
+    return true
+  end
+  #--------------------------------------------------------------------------
+  # * Create Skill List
+  #--------------------------------------------------------------------------
+  def make_item_list
+    @data = []
+    for tree in @actor.skill_trees
+      next unless tree[0] == @tree_name
+      for line in tree[1]
+        for skill_id in line
+          @data.push($data_skills[skill_id.to_i])
+        end
+        while @data.size % col_max != 0
+          @data.push(nil)
+        end
+      end
+    end
+  end
+  #--------------------------------------------------------------------------
+  # * Draw Item
+  #--------------------------------------------------------------------------
+  def draw_item(index)
+    skill = @data[index]
+    if skill
+      rect = item_rect(index)
+      rect.width -= 4
+      draw_item_name(skill, rect.x, rect.y, @actor.skill_learn?(skill) || enable?(skill))
+      draw_skill_cost(rect, skill)
+    end
+  end
+  #--------------------------------------------------------------------------
+  # * Draw Skill Use Cost
+  #--------------------------------------------------------------------------
+  def draw_skill_cost(rect, skill)
+    if @actor.skill_learn?(skill)
+      change_color(mp_cost_color, true)
+      draw_text(rect, "--", 2)
+    else
+      if enable?(skill)
+        change_color(mp_cost_color, true)
+        draw_text(rect, skill.skill_points, 2)
+      else
+        change_color(mp_cost_color, false)
+        draw_text(rect, skill.skill_points, 2)
+      end
+    end
+  end
+  #--------------------------------------------------------------------------
+  # * Update Help Text
+  #--------------------------------------------------------------------------
+  def update_help
+    @help_window.set_item(item)
+  end
+  #--------------------------------------------------------------------------
+  # * Refresh
+  #--------------------------------------------------------------------------
+  def refresh
+    if @actor and @actor.skill_trees
+      n = 0
+      for tree in @actor.skill_trees
+        for line in tree[1]
+          n = line.size if n < line.size
+        end
+      end
+      @col_max = [2, n].max
+    else
+      @col_max = 2
+    end
+    make_item_list
+    create_contents
+    begin
+      contents.blt(0,0,Cache.system("Skill Tree " + @tree_name), Rect.new(0,self.oy,Cache.system("Skill Tree " + @tree_name).width,Cache.system("Skill Tree " + @tree_name).height))
+    rescue
+    end
+    draw_all_items
+  end
+end

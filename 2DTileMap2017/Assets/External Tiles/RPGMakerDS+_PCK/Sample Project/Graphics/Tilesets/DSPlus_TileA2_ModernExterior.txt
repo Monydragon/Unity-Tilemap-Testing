@@ -1,0 +1,28 @@
+Cement
+Cement
+Cobblestone
+Cobblestone
+Tall Grass
+Tall Grass
+Dirt (Snow)
+NONE
+Paving A
+Paving B
+NONE
+NONE
+NONE
+NONE
+NONE
+NONE
+Grass
+Grass Alternative
+Dirt
+Wet Dirt
+NONE
+NONE
+NONE
+NONE
+Soil
+Sand
+Wet Dirt
+Wet Dirt

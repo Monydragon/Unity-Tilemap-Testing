@@ -1,0 +1,87 @@
+=begin
+Chained Skills
+by Fomar0153
+Version 1.0
+----------------------
+Notes
+----------------------
+Allows you to implement chain skills
+Members+ Script.
+Please do not re-distribute.
+----------------------
+Instructions
+----------------------
+Note tag the skills in the chain with
+<chain_skill x>
+where x is the id of the next skill in the chain
+or for the last skill in the last x is the skill
+that starts the chain.
+----------------------
+Known bugs
+----------------------
+None
+=end
+
+class Game_Actor < Game_Battler
+  #--------------------------------------------------------------------------
+  # * Setup
+  #--------------------------------------------------------------------------
+  alias chain_setup setup
+  def setup(actor_id)
+    @chain_skills_add = []
+    @chain_skills_remove = []
+    chain_setup(actor_id)
+  end
+  #--------------------------------------------------------------------------
+  # * Get Skill Object Array
+  #--------------------------------------------------------------------------
+  def skills
+    s = @skills.clone
+    for skill in @chain_skills_remove
+      s.delete(skill)
+    end
+    return (s | added_skills | @chain_skills_add).sort.collect {|id| $data_skills[id] }
+  end
+  #--------------------------------------------------------------------------
+  # * Chain Skills
+  #--------------------------------------------------------------------------
+  def chain_skill(skill)
+    return if skill.chain_skill == 0
+    @chain_skills_add.delete(skill.id)
+    @chain_skills_remove.push(skill.id)
+    @chain_skills_add.push(skill.chain_skill)
+    @chain_skills_remove.delete(skill.chain_skill)
+  end
+  #--------------------------------------------------------------------------
+  # * Processing at End of Battle
+  #--------------------------------------------------------------------------
+  def on_battle_end
+    super
+    @chain_skills_add = []
+    @chain_skills_remove = []
+  end
+end
+
+class Game_Battler < Game_BattlerBase
+  #--------------------------------------------------------------------------
+  # * Calculate Damage
+  #--------------------------------------------------------------------------
+  alias chain_make_damage_value make_damage_value
+  def make_damage_value(user, item)
+    user.chain_skill(item) if user.actor? && item.is_a?(RPG::Skill)
+    chain_make_damage_value(user, item)
+  end
+end
+
+class RPG::Skill
+  def chain_skill
+    if @chain_skill.nil?
+      if @note =~ /<chain_skill (.*)>/i
+        @chain_skill = $1.to_i
+      else
+        @chain_skill = 0
+      end
+    end
+    @chain_skill
+  end
+end

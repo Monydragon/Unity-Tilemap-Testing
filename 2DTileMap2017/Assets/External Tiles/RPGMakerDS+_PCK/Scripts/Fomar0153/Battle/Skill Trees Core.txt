@@ -1,0 +1,401 @@
+=begin
+Skill Trees Core
+by Fomar0153
+Version 1.0
+----------------------
+Notes
+----------------------
+Allows you to implement skill trees or
+a system of buying skills with skill points
+Members+ Script.
+Please do not re-distribute.
+Requires an additional Skill Tree View Script.
+----------------------
+Instructions
+----------------------
+Setup the options in the Fomar module.
+
+Notetags for skills
+<skill_points x>
+where x is the cost, default is 1
+
+<require_one x>
+<require_one x,y>
+<require_one x,y,z>
+requires any of x,y or z to be learnt before this skill
+
+<require_all x>
+<require_all x,y>
+<require_all x,y,z>
+requires all of x,y and z to be learnt before this skill
+
+<exclusive x>
+<exclusive x,y>
+<exclusive x,y,z>
+can not be learnt if x,y or z are learnt
+
+Next you will need to also insert a skill tree view script
+and follow it's instructions.
+----------------------
+Known bugs
+----------------------
+None
+=end
+module Fomar
+  # If true then skill points are shared across all of a characters trees
+  # If false then each tree has it's own skill points
+  TREES_SHARE_SKILL_POINTS = true
+  # Starting skill points
+  STARTING_SKILL_POINTS = 10
+  # Name of menu item e.g. "Skill Shop"
+  MENU_NAME = "Skill Trees"
+  # Levels to gain additional skill points at
+  SKILL_POINT_LEVELS = [2,3,4,5,6,7,8,9,10]
+  
+end
+
+class Game_Actor < Game_Battler
+  #--------------------------------------------------------------------------
+  # * Public Instance Variables
+  #--------------------------------------------------------------------------
+  attr_accessor :skill_points
+  attr_accessor :skill_trees
+  #--------------------------------------------------------------------------
+  # * Setup
+  #--------------------------------------------------------------------------
+  alias st_setup setup
+  def setup(actor_id)
+    st_setup(actor_id)
+    if Fomar::TREES_SHARE_SKILL_POINTS
+      @skill_points = Fomar::STARTING_SKILL_POINTS
+    else
+      @skill_points = {}
+    end
+    st = self.actor.note.scan(/<skilltree (.*?)>[\n|\r](.*?)[\n|\r]<\/skilltree>/mi)
+    @skill_trees = []
+    for i in 0..st.size - 1
+      @skill_points[st[i][0]] = Fomar::STARTING_SKILL_POINTS if !Fomar::TREES_SHARE_SKILL_POINTS
+      skilltree_parse(st[i][0],st[i][1])
+    end
+  end
+  #--------------------------------------------------------------------------
+  # * Level Up
+  #--------------------------------------------------------------------------
+  alias st_level_up level_up
+  def level_up
+    st_level_up
+    if Fomar::TREES_SHARE_SKILL_POINTS
+      @skill_points += 1 if Fomar::SKILL_POINT_LEVELS.include?(@level)
+    else
+      @skill_points.each_key do |key|
+        @skill_points[key] += 1 if Fomar::SKILL_POINT_LEVELS.include?(@level)
+      end
+    end
+  end
+end
+
+class Window_MenuCommand < Window_Command
+  #--------------------------------------------------------------------------
+  # * Add Command
+  #     name    : Command name
+  #     symbol  : Corresponding symbol
+  #     enabled : Activation state flag
+  #     ext     : Arbitrary extended data
+  #--------------------------------------------------------------------------
+  def add_command(name, symbol, enabled = true, ext = nil)
+    super(name, symbol, enabled, ext)
+    if symbol == :skill
+      super(Fomar::MENU_NAME, :skilltree, main_commands_enabled, nil)
+    end
+  end
+end
+
+class Scene_Menu < Scene_MenuBase
+  #--------------------------------------------------------------------------
+  # * Create Command Window
+  #--------------------------------------------------------------------------
+  alias st_create_command_window create_command_window
+  def create_command_window
+    st_create_command_window
+    @command_window.set_handler(:skilltree,    method(:command_personal))
+  end
+  #--------------------------------------------------------------------------
+  # * [OK] Personal Command
+  #--------------------------------------------------------------------------
+  alias st_on_personal_ok on_personal_ok
+  def on_personal_ok
+    if @command_window.current_symbol == :skilltree
+      SceneManager.call(Scene_SkillTree)
+    else
+      st_on_personal_ok
+    end
+  end
+end
+
+class Scene_SkillTree < Scene_ItemBase
+  #--------------------------------------------------------------------------
+  # * Start Processing
+  #--------------------------------------------------------------------------
+  def start
+    super
+    create_help_window
+    create_command_window
+    create_status_window
+    create_item_window
+  end
+  #--------------------------------------------------------------------------
+  # * Create Command Window
+  #--------------------------------------------------------------------------
+  def create_command_window
+    wy = @help_window.height
+    @command_window = Window_SkillTreeCommand.new(0, wy)
+    @command_window.viewport = @viewport
+    @command_window.help_window = @help_window
+    @command_window.actor = @actor
+    @command_window.set_handler(:skilltree, method(:command_skilltree))
+    @command_window.set_handler(:cancel,    method(:return_scene))
+    @command_window.set_handler(:pagedown,  method(:next_actor))
+    @command_window.set_handler(:pageup,    method(:prev_actor))
+  end
+  #--------------------------------------------------------------------------
+  # * Create Status Window
+  #--------------------------------------------------------------------------
+  def create_status_window
+    y = @help_window.height
+    @status_window = Window_SkillTreeStatus.new(@command_window.width, y)
+    @status_window.viewport = @viewport
+    @status_window.actor = @actor
+    @command_window.skilltreestatus_window = @status_window
+  end
+  #--------------------------------------------------------------------------
+  # * Create Item Window
+  #--------------------------------------------------------------------------
+  def create_item_window
+    wx = 0
+    wy = @status_window.y + @status_window.height
+    ww = Graphics.width
+    wh = Graphics.height - wy
+    @item_window = Window_SkillTree.new(wx, wy, ww, wh)
+    @item_window.actor = @actor
+    @item_window.viewport = @viewport
+    @item_window.help_window = @help_window
+    @item_window.set_handler(:ok,     method(:on_item_ok))
+    @item_window.set_handler(:cancel, method(:on_item_cancel))
+    @command_window.skilltree_window = @item_window
+  end
+  #--------------------------------------------------------------------------
+  # * [Skill Tree] Command
+  #--------------------------------------------------------------------------
+  def command_skilltree
+    @item_window.activate
+    @item_window.select(0)
+  end
+  #--------------------------------------------------------------------------
+  # * Item [OK]
+  #--------------------------------------------------------------------------
+  def on_item_ok
+    @actor.learn_skill(@item_window.item.id)
+    if Fomar::TREES_SHARE_SKILL_POINTS
+      @actor.skill_points -= @item_window.item.skill_points
+    else
+      @actor.skill_points[@item_window.tree_name] -= @item_window.item.skill_points
+    end
+    @status_window.refresh
+    @item_window.refresh
+    @item_window.activate
+  end
+  #--------------------------------------------------------------------------
+  # * Item [Cancel]
+  #--------------------------------------------------------------------------
+  def on_item_cancel
+    @item_window.unselect
+    @command_window.activate
+  end
+  #--------------------------------------------------------------------------
+  # * Play SE When Using Item
+  #--------------------------------------------------------------------------
+  def play_se_for_item
+    Sound.play_use_skill
+  end
+  #--------------------------------------------------------------------------
+  # * Change Actors
+  #--------------------------------------------------------------------------
+  def on_actor_change
+    @command_window.actor = @actor
+    @status_window.actor = @actor
+    @item_window.actor = @actor
+    @command_window.activate
+  end
+end
+
+class Window_SkillTreeCommand < Window_Command
+  #--------------------------------------------------------------------------
+  # * Public Instance Variables
+  #--------------------------------------------------------------------------
+  attr_reader   :skilltree_window
+  attr_reader   :skilltreestatus_window
+  #--------------------------------------------------------------------------
+  # * Object Initialization
+  #--------------------------------------------------------------------------
+  def initialize(x, y)
+    super(x, y)
+    @actor = nil
+  end
+  #--------------------------------------------------------------------------
+  # * Get Window Width
+  #--------------------------------------------------------------------------
+  def window_width
+    return 160
+  end
+  #--------------------------------------------------------------------------
+  # * Set Actor
+  #--------------------------------------------------------------------------
+  def actor=(actor)
+    return if @actor == actor
+    @actor = actor
+    refresh
+    select(0)
+  end
+  #--------------------------------------------------------------------------
+  # * Get Number of Lines to Show
+  #--------------------------------------------------------------------------
+  def visible_line_number
+    return 4
+  end
+  #--------------------------------------------------------------------------
+  # * Create Command List
+  #--------------------------------------------------------------------------
+  def make_command_list
+    return unless @actor
+    for tree in @actor.skill_trees
+      add_command(tree[0], :skilltree, true, tree[0])
+    end
+  end
+  #--------------------------------------------------------------------------
+  # * Frame Update
+  #--------------------------------------------------------------------------
+  def update
+    super
+    @skilltree_window.tree_name = current_ext if @skilltree_window
+    @skilltreestatus_window.tree_name = current_ext if @skilltreestatus_window
+  end
+  #--------------------------------------------------------------------------
+  # * Set Skill Tree Window
+  #--------------------------------------------------------------------------
+  def skilltree_window=(skilltree_window)
+    @skilltree_window = skilltree_window
+    update
+  end
+  #--------------------------------------------------------------------------
+  # * Set Skill Tree Status Window
+  #--------------------------------------------------------------------------
+  def skilltreestatus_window=(skilltreestatus_window)
+    @skilltreestatus_window = skilltreestatus_window
+    update
+  end
+end
+
+class Window_SkillTreeStatus < Window_Base
+  #--------------------------------------------------------------------------
+  # * Object Initialization
+  #--------------------------------------------------------------------------
+  def initialize(x, y)
+    super(x, y, window_width, fitting_height(4))
+    @actor = nil
+    @tree_name = ""
+  end
+  #--------------------------------------------------------------------------
+  # * Get Window Width
+  #--------------------------------------------------------------------------
+  def window_width
+    Graphics.width - 160
+  end
+  #--------------------------------------------------------------------------
+  # * Actor Settings
+  #--------------------------------------------------------------------------
+  def actor=(actor)
+    return if @actor == actor
+    @actor = actor
+    refresh
+  end
+  #--------------------------------------------------------------------------
+  # * Set Skill Type ID
+  #--------------------------------------------------------------------------
+  def tree_name=(tree_name)
+    return if @tree_name == tree_name
+    @tree_name = tree_name
+    refresh
+  end
+  #--------------------------------------------------------------------------
+  # * Refresh
+  #--------------------------------------------------------------------------
+  def refresh
+    contents.clear
+    return unless @actor and @tree_name != ""
+    draw_actor_face(@actor, 0, 0)
+    draw_actor_simple_status(@actor, 108, line_height / 2)
+    if Fomar::TREES_SHARE_SKILL_POINTS
+      draw_text(108, line_height / 2 + line_height * 2, 130, line_height, "Skill Points:" + @actor.skill_points.to_s)
+    else
+      draw_text(108, line_height / 2 + line_height * 2, 130, line_height, "Skill Points:" + @actor.skill_points[@tree_name].to_s)
+    end
+  end
+end
+
+class RPG::Skill
+  #--------------------------------------------------------------------------
+  # * Skill Point Cost
+  #--------------------------------------------------------------------------
+  def skill_points
+    if @skill_points.nil?
+      if @note =~ /<skill_points (.*)>/i
+        @skill_points = $1.to_i
+      else
+        @skill_points = 1
+      end
+    end
+    @skill_points
+  end
+  #--------------------------------------------------------------------------
+  # * Required Skills
+  #--------------------------------------------------------------------------
+  def require_all
+    if @require_all.nil?
+      @require_all = []
+      if @note =~ /<require_all (.*)>/i
+        for s in $1.split(",")
+          @require_all.push(s.to_i)
+        end
+      end
+    end
+    @require_all
+  end
+  #--------------------------------------------------------------------------
+  # * Required Skill
+  #--------------------------------------------------------------------------
+  def require_one
+    if @require_one.nil?
+      @require_one = []
+      if @note =~ /<require_one (.*)>/i
+        for s in $1.split(",")
+          @require_one.push(s.to_i)
+        end
+      end
+    end
+    @require_one
+  end
+  #--------------------------------------------------------------------------
+  # * Exclusive
+  #--------------------------------------------------------------------------
+  def exclusive
+    if @exclusive.nil?
+      @exclusive = []
+      if @note =~ /<exclusive (.*)>/i
+        for s in $1.split(",")
+          @exclusive.push(s.to_i)
+        end
+      end
+    end
+    @exclusive
+  end
+end

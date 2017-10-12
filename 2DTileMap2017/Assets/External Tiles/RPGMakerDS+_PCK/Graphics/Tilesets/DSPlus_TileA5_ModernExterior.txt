@@ -1,0 +1,128 @@
+Gravel
+Tiled Paving
+Road Lines
+Road Lines
+Road Lines
+Road Lines
+Road Lines
+Road Lines
+Tarmac
+Drain
+Drain
+Manhole Cover
+Road Lines
+Road Lines
+Road Lines
+Road Lines
+Tarmac Tiles
+Grate
+Grate
+Grate
+Drain (Paving Tiles)
+Drain (Stone Tile)
+Stone Tile
+Road Lines
+Grass
+Stones (Grass)
+Drain (Tarmac)
+Drain (Tarmac)
+Drain (Paving Tiles)
+Paving Tiles
+Drain (Paving Tiles)
+Road Lines
+Sand
+Snow
+Stairs
+Cement
+NONE
+Water
+Water
+Drained Pool
+Ballcourt
+Ballcourt
+Ballcourt
+Ballcourt
+Ballcourt
+Drained Pool
+Drained Pool
+Drained Pool
+Ballcourt
+Ballcourt
+Ballcourt
+Ballcourt
+Ballcourt
+Water
+Water
+Water
+Ballcourt
+Ballcourt
+Ballcourt
+Ballcourt
+Ballcourt
+Drain (Water)
+Drain
+Wall (Water)
+Cobblestone (Grass)
+Cobblestone (Grass)
+Cobblestone (Grass)
+Cobblestone (Grass)
+Cobblestone (Grass)
+Water
+Water
+Wall (Water)
+Cobblestone (Grass)
+Cobblestone (Grass)
+Cobblestone (Grass)
+Cobblestone (Grass)
+Cobblestone (Grass)
+Crevasse
+Crevasse
+Crevasse
+Cobblestone (Grass)
+Cobblestone (Grass)
+Cobblestone (Grass)
+Metal Floor (Grass)
+Metal Floor (Grass)
+Crevasse
+Crevasse
+Crevasse
+Metal Floor (Grass)
+Metal Floor (Grass)
+Metal Floor (Grass)
+Metal Floor (Grass)
+Metal Floor (Grass)
+Cliff Opening (Grass)
+Cliff Opening (Sand)
+Cliff Opening (Snow)
+Metal Floor (Grass)
+Metal Floor (Grass)
+Metal Floor (Grass)
+Water
+NONE
+Cliff Opening (Grass)
+Cliff Opening (Sand)
+Cliff Opening (Snow)
+Alien Stone Floor (Grass)
+Alien Stone Floor (Grass)
+Alien Stone Floor (Grass)
+Rock Stairway
+Snow Stairway
+Rock on Cliff (Grass)
+Cliff (Grass)
+Cliff (Grass)
+NONE
+NONE
+NONE
+Wooden Bridge
+Wooden Bridge
+Rock on Cliff (Sand)
+Cliff (Sand)
+Cliff (Sand)
+NONE
+NONE
+NONE
+NONE
+NONE
+Rock on Cliff (Snow)
+Cliff (Snow)
+Cliff (Snow)

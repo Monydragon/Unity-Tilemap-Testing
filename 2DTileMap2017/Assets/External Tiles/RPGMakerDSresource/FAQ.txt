@@ -1,0 +1,22 @@
+>> How do I import the resource pack/DLC to my game?
+
+Steam: http://steamcommunity.com/app/220700/discussions/0/864961721761841427/
+Official Site: http://forums.rpgmakerweb.com/index.php?/topic/10111-resource-pack-guides-and-faqs/ 
+
+
+>> What if there are issues in the DS Resource Pack? Who should I contact?
+
+We have an official support over here: http://forums.rpgmakerweb.com/index.php?/topic/8533-rpg-maker-ds-resource-support/page-1
+We highly recommend that you go there instead of asking in Steam. If you can't, for some reason register, then please email us at projects@rpgmakerweb.com
+
+
+>> How come there are empty spaces in the tilesets? It looks lacking! 
+
+The DS resource pack is mainly aimed for advanced users of RPG Maker, which means it involves opening up graphic editor programs and merge desired tiles together as well. Additionally, the set labels are solely meant for organization purpose and in no way determine where each set should belong to. You are expected to open graphic editor programs and merge the sets as you see fit.
+
+
+>> Why is this not auto imported in RM? 
+
+The resource packs are only DLC by name. They were made by other artists who are not directly related to Enterbrain. They are in no way, shape or form, to do what you are expected to do, which is to import the assets that you only need directly to your game folder. Please be reminded that not everyone has these resource packs, therefore, in consideration of redistributing the packs, please take into account what resources should be included to avoid unnecessary file size issues.
+
+The resource packs are also made for you and it is your task as a game developer to customize them according to your needs.

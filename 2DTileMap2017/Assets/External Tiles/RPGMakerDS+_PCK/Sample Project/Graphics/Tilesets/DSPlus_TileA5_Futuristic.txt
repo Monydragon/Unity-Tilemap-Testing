@@ -1,0 +1,125 @@
+Lights
+Controls/Cables
+Shelves
+Cupboard
+Cupboard with Items
+Cupboard with Gun
+Cupboard with Armor
+Hologram of Clothes
+Bottom Wall
+Controls/Cables
+Shelves
+Cupboard
+Cupboard with Items
+Cupboard with Gun
+Cupboard with Armor
+Hologram of Clothes
+Light on Wall
+Bar
+Bar
+Bar with Drinks
+Bar with Drinks
+Rock on Cliff Face
+Dirt
+Shrub on Dirt
+Light on Wall
+Bar
+Bar
+Bar with Drinks
+Bar with Drinks
+Cliff Face
+Cliff Face
+Shrubs on Dirt
+Cement Floor
+Cement Floor
+Cement Floor
+Light (Cement Floor)
+Light (Cement Floor)
+Light (Cement Floor)
+Cliff Opening
+Shrubs on Dirt
+Dark Floor
+Dark Floor
+Dark Floor
+Metal Floor
+Metal Floor with Green Goop
+Metal Floor with Green Goop
+Cliff Opening
+Metal Scraps
+Blue Floor
+Tiled Floor
+Lined Floor
+Tiled Floor
+Tiled Floor
+Tiled Floor
+NONE
+Metal Scraps
+Green Floor
+Stone Tiled Floor
+Stone Tiled Floor
+Blue Tiled Floor
+Vent
+Glowing Vent
+NONE
+NONE
+Decorative Dark Floor
+Decorative Dark Floor
+Decorative Dark Floor
+Decorative Dark Floor
+White Road Line
+White Road Line
+Space
+Space
+Space
+Space
+Space
+Space (Large Asteroid)
+Space (Small Asteroids)
+Space (Earth)
+Space (Sun)
+Space (Mars)
+Stone Floor
+Decorative Stone Floor
+Decorative Stone Floor
+Decorative Stone Floor
+Decorative Stone Floor
+Decorative Stone Floor
+Decorative Stone Floor
+Decorative Stone Floor
+Light
+Light 
+Light
+Metal Surface
+Metal Surface
+Metal Surface
+Futuristic Stairway
+Futuristic Stairway
+Decorative Metal Wall
+Decorative Metal Wall
+Decorative Metal Wall
+Metal Surface
+Decorative Metal Wall
+Metal Surface
+Futuristic Stairway
+Futuristic Stairway
+Decorative Metal Wall
+Decorative Metal Wall
+Decorative Metal Wall
+Metal Protrusion
+Decorative Metal Wall
+Decorative Metal Wall
+Futuristic Stairway
+Futuristic Stairway
+Decorative Metal Wall
+Decorative Metal Wall
+Decorative Metal Wall
+Metal Protrusion
+Water (Decorative Metal Wall)
+Water (Decorative Metal Wall)
+NONE
+NONE
+Decorative Metal Wall
+Decorative Metal Wall
+Decorative Metal Wall
+Metal Protrusion
+Metal Protrusion (Stone Floor)

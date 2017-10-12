@@ -1,0 +1,56 @@
+=begin
+Jump Region
+by Fomar0153
+Version 1.0
+----------------------
+Notes
+----------------------
+This script lets you set a region to be jumpable if it's not
+passable. You can also set a region which won't let players
+jump to.
+
+---
+This is a members+ script and also part of December's special
+treat meaning that you can use it in non-commercial projects.
+If you are/were parts of the Members+ programme during the period
+Dec 2012 - Feb 2013 then you can also use this script for 
+commercial projects.
+----------------------
+Instructions
+----------------------
+Setup the region ID's below.
+----------------------
+Known bugs
+----------------------
+None
+=end
+
+module Fomar
+  
+  JUMP_REGION = 1
+  NO_LAND_REGION = 2
+  
+end
+
+class Game_Player < Game_Character
+  #--------------------------------------------------------------------------
+  # * Determine Triggering of Frontal Touch Event
+  #--------------------------------------------------------------------------
+  alias rj_check_event_trigger_touch_front check_event_trigger_touch_front
+  def check_event_trigger_touch_front
+    x2 = $game_map.round_x_with_direction(@x, @direction)
+    y2 = $game_map.round_y_with_direction(@y, @direction)
+    if $game_map.region_id(x2, y2) == Fomar::JUMP_REGION
+      jump = true
+      $game_map.events_xy(x, y).each do |event|
+        if event.trigger_in?([1,2]) && event.normal_priority? == normal
+          jump = false
+        end
+      end
+      if jump && $game_map.region_id($game_map.round_x_with_direction(x2, @direction), $game_map.round_y_with_direction(y2, @direction)) != Fomar::NO_LAND_REGION
+        jump(2 * (x2 - @x), 2 * (y2 - @y))
+      end
+    end
+    rj_check_event_trigger_touch_front
+  end
+end

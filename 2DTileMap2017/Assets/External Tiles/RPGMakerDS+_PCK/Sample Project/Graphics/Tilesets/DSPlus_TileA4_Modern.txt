@@ -1,0 +1,41 @@
+Stone Rooftop
+NONE
+NONE
+Stone Rooftop
+Grass Clifftop
+Sand Clifftop
+Snow Clifftop
+NONE
+Stone Wall
+Stone Wall
+Stone Wall (Snow)
+Stone Wall
+Cliff Face (Grass)
+Cliff Face (Sand)
+Cliff Face (Snow)
+NONE
+Wooden Interior Edge
+NONE
+Stone Interior Edge
+NONE
+NONE
+NONE
+NONE
+NONE
+Plain Wall
+Plain Wall
+Plain Wall
+Wooden Wall
+Wooden Wall
+NONE
+NONE
+NONE
+Metal Interior Edge
+NONE
+NONE
+NONE
+NONE
+NONE
+NONE
+NONE
+Metal Wall

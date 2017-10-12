@@ -1,0 +1,146 @@
+﻿=begin
+Throw Weapons
+by Fomar0153
+Version 1.0
+----------------------
+Notes
+----------------------
+Allows you to throw weapons as a skill in battles.
+
+Members+ Script.
+Please do not re-distribute.
+----------------------
+Instructions
+----------------------
+Follow the instruction in the Members+ Module.
+To mark a weapon as non-throwable notetag it with:
+<nothrow>
+Then any character that you want to throw weapons need to have the
+skill type you set up.
+----------------------
+Known bugs
+----------------------
+None
+=end
+module MembersPlus
+  # In the terms tab create a skill type for the throw command then put its id in
+  THROW_SKILL_TYPE = 3
+  # Create a blank skill to be used for throwing and put its id here
+  # The skill should have HP Damage set in the formula box
+  # message 1, the actual formula and the skill's scope will be controlled through the script
+  THROW_SKILL_ID = 127
+  # This will be the actual damage formula used by the skill
+  # w is the weapon, params[2] refers to the atk stat
+  THROW_SKILL_FORMULA = "w.params[2] * 6 - b.def * 2"
+  
+end
+
+class Window_BattleItem < Window_ItemList
+  #--------------------------------------------------------------------------
+  # * Public Instance Variables
+  #--------------------------------------------------------------------------
+  attr_reader   :throw
+  #--------------------------------------------------------------------------
+  # * Include in Item List?
+  #--------------------------------------------------------------------------
+  def include?(item)
+    @throw ? item.is_a?(RPG::Weapon) && !item.note.include?("<nothrow>") : $game_party.usable?(item)
+  end
+  #--------------------------------------------------------------------------
+  # * Display in Enabled State?
+  #--------------------------------------------------------------------------
+  def enable?(item)
+    @throw ? !item.nil? : super(item)
+  end
+  #--------------------------------------------------------------------------
+  # * Refresh
+  #--------------------------------------------------------------------------
+  alias throw_refresh refresh
+  def refresh(throw = false)
+    @throw = throw
+    throw_refresh
+  end
+end
+
+class Scene_Battle < Scene_Base
+  #--------------------------------------------------------------------------
+  # * [Skill] Command
+  #--------------------------------------------------------------------------
+  alias throw_command_skill command_skill
+  def command_skill
+    if @actor_command_window.current_ext == MembersPlus::THROW_SKILL_TYPE
+      @item_window.refresh(true)
+      @item_window.show.activate
+    else
+      throw_command_skill
+    end
+  end
+  #--------------------------------------------------------------------------
+  # * Item [OK]
+  #--------------------------------------------------------------------------
+  alias throw_on_item_ok on_item_ok
+  def on_item_ok
+    if @item_window.throw
+      item = @item_window.item
+      $data_skills[MembersPlus::THROW_SKILL_ID].scope = 1
+      @skill = $data_skills[MembersPlus::THROW_SKILL_ID]
+      BattleManager.actor.input.set_throw(item.id)
+      select_enemy_selection
+      $game_party.last_item.object = item
+    else
+      throw_on_item_ok
+    end
+  end
+  #--------------------------------------------------------------------------
+  # * Enemy [Cancel]
+  #--------------------------------------------------------------------------
+  alias throw_on_enemy_cancel on_enemy_cancel
+  def on_enemy_cancel
+    if @actor_command_window.current_symbol == :skill && 
+      @actor_command_window.current_ext == MembersPlus::THROW_SKILL_TYPE
+      @enemy_window.hide
+      @item_window.activate
+    else
+      throw_on_enemy_cancel
+    end
+  end
+end
+
+class Game_Action
+  #--------------------------------------------------------------------------
+  # * Set Item
+  #--------------------------------------------------------------------------
+  def set_throw(weapon_id)
+    @item.object = $data_weapons[weapon_id]
+    self
+  end
+  #--------------------------------------------------------------------------
+  # * Action Preparation
+  #--------------------------------------------------------------------------
+  alias throw_prepare prepare
+  def prepare
+    if @item.object.is_a?(RPG::Weapon)
+      w = @item.object
+      $data_skills[MembersPlus::THROW_SKILL_ID].damage.formula = "$game_party.lose_item($data_weapons[" + w.id.to_s + "], 1);w=$data_weapons[" + w.id.to_s + "];" + MembersPlus::THROW_SKILL_FORMULA
+      if ["a","e","i","o","u"].include?(item.name[0,1].downcase)
+        $data_skills[MembersPlus::THROW_SKILL_ID].message1 = " throws an " + w.name
+      else
+        $data_skills[MembersPlus::THROW_SKILL_ID].message1 = " throws a " + w.name
+      end
+      set_skill(MembersPlus::THROW_SKILL_ID)
+    end
+    throw_prepare
+  end
+  #--------------------------------------------------------------------------
+  # * Calculate Action Speed
+  #--------------------------------------------------------------------------
+  alias throw_speed speed
+  def speed
+    if @item.object.is_a?(RPG::Weapon)
+      speed = subject.agi + rand(5 + subject.agi / 4)
+    else
+      return throw_speed
+    end
+    speed
+  end
+end

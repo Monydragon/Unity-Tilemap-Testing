@@ -1,0 +1,16 @@
+shallow water
+deep water
+lilly pads
+watery grass
+water (grass)
+waterfall (hard dirt)
+water
+waterfall (soft dirt)
+canal
+waterfall
+shallow water (grass)
+dirt clod (shallow)
+parallax water (grass)
+waterfall (stone)
+parallax water
+dirt clod (parallax)

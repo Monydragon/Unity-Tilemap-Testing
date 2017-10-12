@@ -1,0 +1,13 @@
+# ---------------------
+# This allows followers to jump too.
+# This snippet is by Galv: 
+# http://forums.rpgmakerweb.com/index.php?/topic/15962-jump-command-doesnt-control-followers/#entry157853
+# Put this below the script, Jump Region Follower.
+# ---------------------
+
+class Game_Player < Game_Character
+  def jump(x_plus, y_plus)
+    super
+    @followers.each { |f| f.jump(@x - f.x, @y - f.y) }
+  end
+end

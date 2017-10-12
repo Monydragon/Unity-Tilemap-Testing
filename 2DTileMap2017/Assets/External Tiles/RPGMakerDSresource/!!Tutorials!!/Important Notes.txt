@@ -1,0 +1,12 @@
+Tileset notes:
+The tilesets in this resource pack requires an intermediate amount of knowledge of using the engine's mapping editor and event options.
+ 
+- The Sewers set needs shift mapping to be functional.
+
+- Shift click is absolute copy/paste tiles without affecting any autotile structures of the surroundings. 
+*When there is no shift clicked tile in the clipboard, if you shift left click it'll put the absolutely middle part of that autotile which means no edges no corners.
+*Shift Right Click is basically copying whatever it is on that tile including all layers.
+*Shift Left Click will paste the copied tile(s) by Shift Right Click.
+
+- Using the smoke graphics might require heavy modifications by the user. It onlt works for chimneys from the left.
+- If you are confused on how some event functigons work.

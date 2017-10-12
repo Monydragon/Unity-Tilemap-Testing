@@ -1,0 +1,32 @@
+grass
+(grass) dirt
+(grass) stone path
+stone path (curb)
+long grass
+curb
+fence
+garden
+dirt
+(dirt) grass
+(dirt) stone path
+cobbles
+cat tails
+curb
+fence
+moss
+gravel
+(gravel) grass
+pavers
+stone (curb)
+ivy
+dirt pile
+fence
+clumpy moss
+(grass) flowers
+(dirt) clumpy grass
+hole (wall)
+hole (dirt)
+leaf pile
+scattered leaves
+fence
+cracks

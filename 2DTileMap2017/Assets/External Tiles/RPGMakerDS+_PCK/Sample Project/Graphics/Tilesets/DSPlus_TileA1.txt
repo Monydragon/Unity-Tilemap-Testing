@@ -1,0 +1,26 @@
+Sea Water
+Water A (Grass field)
+Interior Water
+Sea Water
+Lava
+NONE
+Water A (Snow field)
+NONE
+Water B (Grass field)
+NONE
+Water B (Snow field)
+NONE
+Water C (Grass field)
+NONE
+Water C (Snow field)
+NONE
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,58 @@
+slate steps left
+slate steps middle
+slate steps right
+slate steps single
+stone steps left
+stone steps middle
+stone steps right
+stone steps single
+wood steps left
+wood steps middle
+wood steps right
+wood steps single
+wood steps left bottom
+wood steps middle bottom
+wood steps right bottom
+wood steps single bottom
+slate steps left bottom
+slate steps middle bottom
+slate steps right bottom
+slate steps single bottom
+stone steps left bottom
+stone steps middle bottom
+stone steps right bottom
+stone steps single bottom
+slate steps left railing
+slate steps middle railing
+slate steps right railing
+slate steps single railing
+stone steps left railing
+stone steps middle railing
+stone steps right railing
+stone steps single railing
+wood steps left railing
+wood steps middle railing
+wood steps right railing
+wood steps single railing
+wood steps left bottom railing
+wood steps middle bottom railing
+wood steps right bottom railing
+wood steps single bottom railing
+slate steps left bottom railing
+slate steps middle bottom railing
+slate steps right bottom railing
+slate steps single bottom railing
+stone steps left bottom railing
+stone steps middle bottom railing
+stone steps right bottom railing
+stone steps single bottom railing
+wood slanted
+wood fingerblock
+wood diamond inlay
+wood round inlay
+wood parquet
+wood parquet
+rounded stone
+black slate
+tile
+varied stone

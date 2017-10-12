@@ -1,0 +1,15 @@
+Purple Exterior Edge
+Purple Interior Edge
+Grey Exterior Edge
+Grey Interior Edge
+Rusted Exterior Edge
+Rocky Clifftop
+Metal Interior Edge
+NONE
+Purple Wall
+NONE
+Grey Wall
+NONE
+Rusted Wall
+Cliff Face
+Metal Wall

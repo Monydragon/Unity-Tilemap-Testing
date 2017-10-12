@@ -1,0 +1,32 @@
+Broken Wood Flooring
+NONE
+Blue Carpet
+NONE
+NONE
+NONE
+Scuffed Table
+Scuffed Table Overlap
+NONE
+NONE
+Red Carpet
+NONE
+NONE
+NONE
+Light-coloured Table
+Table with Cloth
+NONE
+NONE
+NONE
+NONE
+NONE
+NONE
+Light-coloured Table Metal Legs
+Varnished Table
+NONE
+NONE
+NONE
+NONE
+NONE
+NONE
+Metal Table
+Dark Table Metal Legs

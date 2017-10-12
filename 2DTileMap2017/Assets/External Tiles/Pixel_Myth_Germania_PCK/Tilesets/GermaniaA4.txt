@@ -1,0 +1,32 @@
+grass
+dirt
+canopy (light)
+canopy (dark)
+stone
+ivy
+hedge
+bush
+hard dirt cliff (grass)
+hard dirt cliff (dirt)
+branchy trees
+dense trees
+stone wall
+ivy
+hedge
+bush
+dirt edge (dark)
+lumpy dirt
+bumpy canopy (light)
+canopy (dark) (same as other canopy)
+stony cliff (dirt)
+stony cliff (grass)
+?????
+?????
+soft dirt cliff (dirt)
+soft dirt cliff (grass)
+thin branchy trees
+thin trees
+stony cliff (dirt)
+stony cliff (grass)
+?????
+?????
