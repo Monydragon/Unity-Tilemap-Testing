@@ -16,14 +16,17 @@ TextureImporter:
     21300018: Chuck_back_0
     21300020: Chuck_back_1
     21300022: Chuck_back_2
-  serializedVersion: 2
+  externalObjects: {}
+  serializedVersion: 4
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
+    sRGBTexture: 1
     linearTexture: 0
-    correctGamma: 0
     fadeOut: 0
     borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
     mipMapFadeDistanceStart: 1
     mipMapFadeDistanceEnd: 3
   bumpmap:
@@ -33,23 +36,22 @@ TextureImporter:
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
-  generateCubemap: 0
+  generateCubemap: 6
   cubemapConvolution: 0
-  cubemapConvolutionSteps: 8
-  cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -3
   maxTextureSize: 128
   textureSettings:
+    serializedVersion: 2
     filterMode: 0
     aniso: 16
     mipBias: -1
-    wrapMode: 1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
-  rGBM: 0
   compressionQuality: 50
-  allowsAlphaSplitting: 0
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
@@ -57,12 +59,56 @@ TextureImporter:
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 32
+  alphaUsage: 1
   alphaIsTransparency: 1
+  spriteTessellationDetail: -1
   textureType: 8
-  buildTargetSettings: []
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 128
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 128
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 128
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 128
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: Chuck_fw_0
+    - serializedVersion: 2
+      name: Chuck_fw_0
       rect:
         serializedVersion: 2
         x: 0
@@ -72,16 +118,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -12, y: 16}
-        - {x: -13, y: 14}
-        - {x: -14, y: 11}
-        - {x: -14, y: -15}
-        - {x: -11, y: -16}
-        - {x: 11, y: -16}
-        - {x: 15, y: -8}
-        - {x: 15, y: 16}
-    - name: Chuck_fw_1
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Chuck_fw_1
       rect:
         serializedVersion: 2
         x: 32
@@ -91,17 +132,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -9, y: 16}
-        - {x: -13, y: 14}
-        - {x: -15, y: 1}
-        - {x: -15, y: -9}
-        - {x: -8, y: -16}
-        - {x: 11, y: -16}
-        - {x: 16, y: -8}
-        - {x: 16, y: 6}
-        - {x: 13, y: 16}
-    - name: Chuck_fw_3
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Chuck_fw_3
       rect:
         serializedVersion: 2
         x: 64
@@ -111,17 +146,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 10, y: 16}
-        - {x: -10, y: 16}
-        - {x: -14, y: 10}
-        - {x: -14, y: -10}
-        - {x: -10, y: -16}
-        - {x: 8, y: -16}
-        - {x: 12, y: -14}
-        - {x: 15, y: -11}
-        - {x: 15, y: 11}
-    - name: Chuck_left_0
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Chuck_left_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,17 +160,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -11, y: 16}
-        - {x: -13, y: 14}
-        - {x: -13, y: -5}
-        - {x: -8, y: -14}
-        - {x: -6, y: -16}
-        - {x: 8, y: -16}
-        - {x: 15, y: -9}
-        - {x: 15, y: 9}
-        - {x: 13, y: 16}
-    - name: Chuck_left_1
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Chuck_left_1
       rect:
         serializedVersion: 2
         x: 32
@@ -151,15 +174,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -13, y: 16}
-        - {x: -13, y: -7}
-        - {x: -8, y: -16}
-        - {x: 9, y: -16}
-        - {x: 13, y: -12}
-        - {x: 13, y: 13}
-        - {x: 12, y: 16}
-    - name: Chuck_left_2
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Chuck_left_2
       rect:
         serializedVersion: 2
         x: 64
@@ -169,14 +188,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -13, y: 16}
-        - {x: -13, y: -5}
-        - {x: -8, y: -16}
-        - {x: 12, y: -16}
-        - {x: 13, y: -9}
-        - {x: 13, y: 16}
-    - name: Chuck_right_0
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Chuck_right_0
       rect:
         serializedVersion: 2
         x: 0
@@ -186,15 +202,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -10, y: 16}
-        - {x: -15, y: 8}
-        - {x: -15, y: -8}
-        - {x: -11, y: -16}
-        - {x: 8, y: -16}
-        - {x: 13, y: -6}
-        - {x: 13, y: 16}
-    - name: Chuck_right_1
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Chuck_right_1
       rect:
         serializedVersion: 2
         x: 32
@@ -204,15 +216,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -10, y: 16}
-        - {x: -13, y: 13}
-        - {x: -13, y: -9}
-        - {x: -8, y: -16}
-        - {x: 11, y: -16}
-        - {x: 13, y: -3}
-        - {x: 13, y: 16}
-    - name: Chuck_right_2
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Chuck_right_2
       rect:
         serializedVersion: 2
         x: 64
@@ -222,15 +230,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -10, y: 16}
-        - {x: -13, y: 12}
-        - {x: -13, y: -8}
-        - {x: -8, y: -16}
-        - {x: 9, y: -16}
-        - {x: 13, y: -5}
-        - {x: 13, y: 16}
-    - name: Chuck_back_0
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Chuck_back_0
       rect:
         serializedVersion: 2
         x: 0
@@ -240,16 +244,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -13, y: 16}
-        - {x: -13, y: -13}
-        - {x: -11, y: -15}
-        - {x: -9, y: -16}
-        - {x: 10, y: -16}
-        - {x: 14, y: -13}
-        - {x: 14, y: 13}
-        - {x: 11, y: 16}
-    - name: Chuck_back_1
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Chuck_back_1
       rect:
         serializedVersion: 2
         x: 32
@@ -259,15 +258,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -9, y: 16}
-        - {x: -13, y: 12}
-        - {x: -13, y: -10}
-        - {x: -7, y: -16}
-        - {x: 10, y: -16}
-        - {x: 14, y: -14}
-        - {x: 14, y: 16}
-    - name: Chuck_back_2
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Chuck_back_2
       rect:
         serializedVersion: 2
         x: 64
@@ -277,15 +272,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -13, y: 16}
-        - {x: -13, y: -13}
-        - {x: -11, y: -16}
-        - {x: 7, y: -16}
-        - {x: 14, y: -9}
-        - {x: 14, y: 15}
-        - {x: 11, y: 16}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
     outline: []
+    physicsShape: []
   spritePackingTag: 
   userData: 
   assetBundleName: 

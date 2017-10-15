@@ -3,9 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerMovement : BaseMovementController
+
 {
     public bool isMoving = false;
-    private Vector3 _MovementPath;
+    public Vector3 _MovementPath;
+
+    public void Start()
+    {
+    }
 
     void HandleAnimation()
     {
@@ -26,6 +31,7 @@ public class PlayerMovement : BaseMovementController
     }
     protected override void Move()
     {
+        _TileMove.CheckArea(transform);
         HandleAnimation();
         if (TileMove.SmoothMovement)
         {
@@ -36,9 +42,18 @@ public class PlayerMovement : BaseMovementController
 
             if (isMoving)
             {
+                //if(_MovementPath == Vector3.right) { _TileMove.Move(transform, MoveDirection.RIGHT, _TileMove.Speed, true); }
+                //if(_MovementPath == Vector3.left) { _TileMove.Move(transform, MoveDirection.LEFT, _TileMove.Speed, true); }
+                //if(_MovementPath == Vector3.up) { _TileMove.Move(transform, MoveDirection.UP, _TileMove.Speed, true); }
+                //if(_MovementPath == Vector3.down) { _TileMove.Move(transform, MoveDirection.DOWN, _TileMove.Speed, true); }
+
+                if (_MovementPath == Vector3.right) { _TileMove._FacingDirection = MoveDirection.RIGHT; }
+                if (_MovementPath == Vector3.left) { _TileMove._FacingDirection = MoveDirection.LEFT; }
+                if (_MovementPath == Vector3.up) { _TileMove._FacingDirection = MoveDirection.UP; }
+                if (_MovementPath == Vector3.down) { _TileMove._FacingDirection = MoveDirection.DOWN; }
                 transform.position += _MovementPath * Time.deltaTime * _TileMove.Speed;
+
             }
-            _TileMove.CheckArea(transform);
 
             //_Collider.enabled = true;
             //_Collider.isTrigger = true;
@@ -62,6 +77,14 @@ public class PlayerMovement : BaseMovementController
             if (Input.GetKeyDown(KeyCode.DownArrow) && Input.GetKeyDown(KeyCode.LeftArrow) && !Input.GetKeyDown(KeyCode.RightArrow) && !Input.GetKeyDown(KeyCode.UpArrow)) { _TileMove.Move(transform, MoveDirection.DOWN_LEFT, _TileMove.Speed); }
         }
 
-        if (Input.GetKeyDown(KeyCode.Space)) { Debug.Log(_TileMove.Up?.tag); }
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            var interactedObject = _TileMove.Interact();
+            if (interactedObject != null)
+            {
+                EventManager.ObjectInteract(this.gameObject, interactedObject);
+                //Debug.Log(_TileMove.Interact().name);
+            }
+        }
     }
 }

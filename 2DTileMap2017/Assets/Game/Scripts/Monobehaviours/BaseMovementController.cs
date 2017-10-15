@@ -9,10 +9,10 @@ public abstract class BaseMovementController : MonoBehaviour
 
 	protected Rigidbody2D _Rb;
 	protected Collider2D _Collider;
-    protected Animator _Animator;
+	protected Animator _Animator;
 
 
-    protected TileMovement TileMove
+	protected TileMovement TileMove
 	{
 		get { return _TileMove; }
 		set { _TileMove = value; }

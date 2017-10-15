@@ -4,9 +4,10 @@ using UnityEngine;
 [Serializable]
 public class TileMovement
 {
+    public MoveDirection _FacingDirection = MoveDirection.UP;
     public bool Use8Directional = true;
     public bool SmoothMovement = true;
-    public float Speed = 0.5f;
+    public float Speed = 3f;
     public LayerMask ColliderMask;
     public float RayCheckDistance = 0.75f;
     public Collider2D Up;
@@ -21,6 +22,7 @@ public class TileMovement
 
     public void Move(Transform _transform, MoveDirection _direction, float _distance = -1.0f, bool _checkArea = true)
     {
+        _FacingDirection = _direction;
         if (_checkArea) { CheckArea(_transform); }
         if ((int)_distance == -1) { _distance = Speed; }
         if (SmoothMovement) { _distance = _distance * Time.deltaTime; }
@@ -116,5 +118,23 @@ public class TileMovement
             DownRight = DR_hit.collider;
             DownLeft = DL_hit.collider;
         }
+    }
+
+    public GameObject Interact()
+    {
+        GameObject go = null;
+        switch (_FacingDirection)
+        {
+            case MoveDirection.UP: go = Up?.gameObject; break;
+            case MoveDirection.RIGHT: go = Right?.gameObject; break;
+            case MoveDirection.DOWN: go = Down?.gameObject; break;
+            case MoveDirection.LEFT: go = Left?.gameObject; break;
+            case MoveDirection.UP_LEFT: go = UpLeft?.gameObject; break;
+            case MoveDirection.UP_RIGHT: go = UpRight?.gameObject; break;
+            case MoveDirection.DOWN_RIGHT: go = DownRight?.gameObject; break;
+            case MoveDirection.DOWN_LEFT: go = DownLeft?.gameObject; break;
+        }
+
+        return go;
     }
 }
